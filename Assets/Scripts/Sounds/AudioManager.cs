@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using UnityEngine.Audio;
 
 public class AudioManager : MonoBehaviour
@@ -13,6 +14,7 @@ public class AudioManager : MonoBehaviour
 
     [Range(-80, 10)]
     public float masterVol, effectsVol;
+    public Slider masterSlider, effectsSlider;
 
     private void Awake()
     {
@@ -26,6 +28,14 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         //PlayAudio(backgroundMusic);
+        masterSlider.value = masterVol;
+        effectsSlider.value = effectsVol;
+
+        masterSlider.minValue = -80;
+        masterSlider.maxValue = 10;
+
+        effectsSlider.minValue = -80;
+        effectsSlider.maxValue = 10;
     }
 
     // Update is called once per frame
@@ -37,12 +47,12 @@ public class AudioManager : MonoBehaviour
 
     public void MasterVolume()
     {
-        musicMixer.SetFloat("masterVolume", masterVol);
+        musicMixer.SetFloat("masterVolume", masterSlider.value);
     }
 
     public void EffectsVolume()
     {
-        effectsMixer.SetFloat("effectsVolume", effectsVol);
+        effectsMixer.SetFloat("effectsVolume", effectsSlider.value);
     }
 
     public void PlayAudio(AudioSource audio)
