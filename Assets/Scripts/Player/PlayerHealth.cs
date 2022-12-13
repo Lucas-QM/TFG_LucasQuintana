@@ -43,6 +43,7 @@ public class PlayerHealth : MonoBehaviour
         if(collision.CompareTag("Enemy") && !isInmune)
         {
             hp -= collision.GetComponent<Enemy>().damageToGive;
+            AudioManager.instance.PlayAudio(AudioManager.instance.playerDamage);
             StartCoroutine(inmunity());
 
             if(collision.transform.position.x > transform.position.x)
