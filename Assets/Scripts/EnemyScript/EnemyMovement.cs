@@ -11,6 +11,9 @@ public class EnemyMovement : MonoBehaviour
     public bool isStatic;
     public bool isWalker;
     public bool isPatrol;
+    public bool isSearcher;
+    public bool isFollower;
+    public bool isFlying;
     public bool walksRight;
     public bool shouldWait;
     public bool isWaiting;
@@ -24,6 +27,9 @@ public class EnemyMovement : MonoBehaviour
     public Transform pointA, pointB;
     bool goToA, goToB;
 
+    public float lineOfSite;
+    private Transform player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -31,18 +37,22 @@ public class EnemyMovement : MonoBehaviour
         speed = GetComponent<Enemy>().speed;
         rb = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
     // Update is called once per frame
     void Update()
     {
-        pitDetected = !Physics2D.OverlapCircle(pitCheck.position, detectionRadius, whatIsGround);
-        wallDetected = !Physics2D.OverlapCircle(wallCheck.position, detectionRadius, whatIsGround);
-        isGrounded = !Physics2D.OverlapCircle(groundCheck.position, detectionRadius, whatIsGround);
-
-        if( pitDetected || wallDetected && isGrounded)
+        if (!isFlying)
         {
-            Flip();
+            pitDetected = !Physics2D.OverlapCircle(pitCheck.position, detectionRadius, whatIsGround);
+            wallDetected = !Physics2D.OverlapCircle(wallCheck.position, detectionRadius, whatIsGround);
+            isGrounded = !Physics2D.OverlapCircle(groundCheck.position, detectionRadius, whatIsGround);
+
+            if (pitDetected || wallDetected && isGrounded)
+            {
+                Flip();
+            }
         }
     }
 
@@ -107,6 +117,29 @@ public class EnemyMovement : MonoBehaviour
                 }
             }
         }
+        float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
+        if (isFollower)
+        {
+            if (distanceFromPlayer < lineOfSite)
+            {
+                transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+            }
+        }
+
+        if(isSearcher)
+        {
+            if(distanceFromPlayer < lineOfSite)
+            {
+                isPatrol = false;
+                speed = 2;
+                isFollower = true;
+            } else
+            {
+                isFollower = false;
+                speed = 1;
+                isPatrol = true;
+            }
+        }
     }
 
     IEnumerator Waiting()
@@ -124,5 +157,11 @@ public class EnemyMovement : MonoBehaviour
     {
         walksRight = !walksRight;
         transform.localScale *= new Vector2(-1, transform.localScale.y);
+    }
+
+    private void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawWireSphere(transform.position, lineOfSite);
     }
 }
