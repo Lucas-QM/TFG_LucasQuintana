@@ -20,7 +20,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //gameOverImg.SetActive(false);
+        gameOverImg.SetActive(false);
         rb = GetComponentInParent<Rigidbody2D>();
         sprite = GetComponentInParent<SpriteRenderer>();
         material = GetComponentInParent<Blink>();
@@ -52,6 +52,13 @@ public class PlayerHealth : MonoBehaviour
             } else
             {
                 rb.AddForce(new Vector2(knockbackForceX, knockbackForceY), ForceMode2D.Force);
+            }
+
+            if(hp <= 0)
+            {
+                Time.timeScale = 0;
+                gameOverImg.SetActive(true);
+                //AudioManager.instance.levelMusic.Stop();
             }
         }
     }

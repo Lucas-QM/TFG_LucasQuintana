@@ -9,7 +9,15 @@ public class MainMenuScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        Scene scene = SceneManager.GetActiveScene();
+
+        if(scene.name == "MainMenu")
+        {
+            //AudioManager.instance.levelMusic.Stop();
+            //AudioManager.instance.PlayAudio(AudioManager.instance.mainMenu);
+        }
+
+        Time.timeScale = 1;
     }
 
     // Update is called once per frame

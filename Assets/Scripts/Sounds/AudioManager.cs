@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public AudioMixer musicMixer, effectsMixer;
 
-    public AudioSource playerDamage;
+    public AudioSource playerDamage, mainMenu, levelMusic;
 
     public static AudioManager instance;
 

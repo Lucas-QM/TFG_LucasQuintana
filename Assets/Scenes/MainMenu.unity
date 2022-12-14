@@ -675,7 +675,7 @@ GameObject:
   - component: {fileID: 565187366}
   - component: {fileID: 565187365}
   m_Layer: 5
-  m_Name: QuitGame (1)
+  m_Name: CloseSettings
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
