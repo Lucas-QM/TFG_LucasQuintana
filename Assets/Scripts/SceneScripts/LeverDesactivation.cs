@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeverActivation : MonoBehaviour
+public class LeverDesactivation : MonoBehaviour
 {
     public GameObject ObjectToActivate;
 
@@ -10,7 +10,7 @@ public class LeverActivation : MonoBehaviour
     {
         if (collision.CompareTag("Weapon"))
         {
-            ObjectToActivate.SetActive(true);
+            ObjectToActivate.SetActive(false);
             transform.GetChild(0).gameObject.SetActive(false);
             transform.GetChild(1).gameObject.SetActive(true);
         }

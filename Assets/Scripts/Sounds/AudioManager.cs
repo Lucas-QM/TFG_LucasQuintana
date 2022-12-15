@@ -59,4 +59,9 @@ public class AudioManager : MonoBehaviour
     {
         audio.Play();
     }
+
+    public void StopMusic(AudioSource audio)
+    {
+
+    }
 }

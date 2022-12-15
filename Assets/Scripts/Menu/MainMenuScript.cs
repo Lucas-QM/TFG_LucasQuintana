@@ -13,8 +13,7 @@ public class MainMenuScript : MonoBehaviour
 
         if(scene.name == "MainMenu")
         {
-            //AudioManager.instance.levelMusic.Stop();
-            //AudioManager.instance.PlayAudio(AudioManager.instance.mainMenu);
+            AudioManager.instance.PlayAudio(AudioManager.instance.mainMenu);
         }
 
         Time.timeScale = 1;
@@ -39,6 +38,7 @@ public class MainMenuScript : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        AudioManager.instance.levelMusic.Stop();
         SceneManager.LoadScene(0);
     }
 

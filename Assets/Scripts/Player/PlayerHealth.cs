@@ -58,7 +58,7 @@ public class PlayerHealth : MonoBehaviour
             {
                 Time.timeScale = 0;
                 gameOverImg.SetActive(true);
-                //AudioManager.instance.levelMusic.Stop();
+                AudioManager.instance.levelMusic.Stop();
             }
         }
     }
