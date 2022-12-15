@@ -8,11 +8,13 @@ public class ControlDialoge : MonoBehaviour
     private Queue<string> dialoges;
     Texts text;
     public TextMeshProUGUI textInScreen;
+    public GameObject activator;
+    public Transform player;
 
     // Start is called before the first frame update
     void Start()
     {
-
+        dialoges = new Queue<string>();
     }
 
     // Update is called once per frame
@@ -23,8 +25,10 @@ public class ControlDialoge : MonoBehaviour
 
     public void ActiveDialoge(Texts textObject)
     {
-        transform.GetChild(0).gameObject.SetActive(true);
+        player.GetComponent<PlayerController>().isTalking = true;
+        activator.SetActive(true);
         text = textObject;
+        ActiveText();
     }
 
     public void ActiveText()
@@ -51,7 +55,8 @@ public class ControlDialoge : MonoBehaviour
 
     public void CloseDialoge()
     {
-        transform.GetChild(0).gameObject.SetActive(false);
+        player.GetComponent<PlayerController>().isTalking = false;
+        activator.SetActive(false);
     }
 
     IEnumerator ShowCharacters(string text)

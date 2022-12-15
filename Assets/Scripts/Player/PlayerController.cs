@@ -15,6 +15,7 @@ public class PlayerController : MonoBehaviour
     Animator anim;
 
     bool isAttacking;
+    public bool isTalking;
 
     public static PlayerController instance;
 
@@ -50,10 +51,13 @@ public class PlayerController : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Movement();
-        FlipCharacter();
-        Jump();
-        Attack();
+        if (!isTalking)
+        {
+            Movement();
+            FlipCharacter();
+            Jump();
+            Attack();
+        }
     }
 
     public void Attack()
