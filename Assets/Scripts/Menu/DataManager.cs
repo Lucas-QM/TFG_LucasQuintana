@@ -4,15 +4,33 @@ using UnityEngine;
 
 public class DataManager : MonoBehaviour
 {
+
+    public static DataManager instance;
+
+    private void Awake()
+    {
+        if(instance == null)
+        {
+            instance = this;
+        } else if(instance != null)
+        {
+            Destroy(gameObject);
+        }
+    }
+
     // Start is called before the first frame update
     void Start()
     {
-        
+        DontDestroyOnLoad(gameObject);
     }
 
-    // Update is called once per frame
-    void Update()
+    public void MusicData(float value)
     {
-        
+        PlayerPrefs.SetFloat("MusicVolume", value);
+    }
+
+    public void EffectsData(float value)
+    {
+        PlayerPrefs.SetFloat("EffectsVolume", value);
     }
 }

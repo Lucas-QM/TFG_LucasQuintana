@@ -24,7 +24,7 @@ public class EnemyHealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Weapon") && !isDamaged)
+        if(collision.CompareTag("Weapon") || collision.CompareTag("Magic") && !isDamaged)
         {
             enemy.hp -= 2f;
             AudioManager.instance.PlayAudio(damageSound);

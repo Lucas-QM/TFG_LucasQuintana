@@ -346,7 +346,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Hell Hound
-  hp: 10
+  hp: 4
   speed: 1
   knockbackForceX: 1
   knockbackForceY: 1
@@ -366,9 +366,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isStatic: 0
   isWalker: 0
-  isPatrol: 0
-  isSearcher: 0
-  isFollower: 1
+  isPatrol: 1
+  isSearcher: 1
+  isFollower: 0
   isFlying: 0
   walksRight: 0
   shouldWait: 0
@@ -398,7 +398,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDamaged: 0
   deathEffect: {fileID: 4656197329296098100, guid: 9b6d1f3899e3416498d79b7cc3870e70, type: 3}
-  originalHealth: 10
+  originalHealth: 4
+  damageSound: {fileID: 0}
 --- !u!114 &6430366230356533136
 MonoBehaviour:
   m_ObjectHideFlags: 0

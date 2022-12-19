@@ -7,7 +7,9 @@ public class PlayerHealth : MonoBehaviour
 {
     public float hp;
     public float maxHealth;
+    public float mana, maxMana;
     public Image healthImage;
+    public Image manaImage;
     bool isInmune;
     public float inmunityTime;
     SpriteRenderer sprite;
@@ -25,6 +27,7 @@ public class PlayerHealth : MonoBehaviour
         sprite = GetComponentInParent<SpriteRenderer>();
         material = GetComponentInParent<Blink>();
         hp = maxHealth;
+        mana = maxMana;
         material.original = sprite.material;
     }
 
@@ -32,9 +35,14 @@ public class PlayerHealth : MonoBehaviour
     void Update()
     {
         healthImage.fillAmount = hp / 100;
+        manaImage.fillAmount = mana / 100;
         if(hp > maxHealth)
         {
             hp = maxHealth;
+        }
+        if(mana > maxMana)
+        {
+            mana = maxMana;
         }
     }
 

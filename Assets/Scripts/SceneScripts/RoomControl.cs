@@ -6,8 +6,11 @@ public class RoomControl : MonoBehaviour
 {
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        transform.GetChild(0).gameObject.SetActive(true);
-        CameraController.instance.activeRoom = transform.GetChild(0);
+        if (collision.CompareTag("Player"))
+        {
+            transform.GetChild(0).gameObject.SetActive(true);
+            CameraController.instance.activeRoom = transform.GetChild(0);
+        }
     }
 
     private void OnTriggerStay2D(Collider2D collision)

@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public AudioMixer musicMixer, effectsMixer;
 
-    public AudioSource playerDamage, BGMusic;
+    public AudioSource playerDamage, BGMusic, skeletonHit, hellHoundHit, skullHit, spark;
 
     public static AudioManager instance;
 
@@ -28,31 +28,36 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         PlayAudio(BGMusic);
-        masterSlider.value = masterVol;
-        effectsSlider.value = effectsVol;
+        //masterSlider.value = masterVol;
+        //effectsSlider.value = effectsVol;
 
         masterSlider.minValue = -80;
         masterSlider.maxValue = 10;
 
         effectsSlider.minValue = -80;
         effectsSlider.maxValue = 10;
+
+        masterSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0);
+        effectsSlider.value = PlayerPrefs.GetFloat("EffectsVolume", 0);
     }
 
     // Update is called once per frame
     void Update()
     {
-        MasterVolume();
-        EffectsVolume();
+        //MasterVolume();
+        //EffectsVolume();
     }
 
     public void MasterVolume()
     {
-        musicMixer.SetFloat("masterVolume", masterSlider.value);
+        DataManager.instance.MusicData(masterSlider.value);
+        musicMixer.SetFloat("masterVolume", PlayerPrefs.GetFloat("MusicVolume"));
     }
 
     public void EffectsVolume()
     {
-        effectsMixer.SetFloat("effectsVolume", effectsSlider.value);
+        DataManager.instance.EffectsData(effectsSlider.value);
+        effectsMixer.SetFloat("effectsVolume", PlayerPrefs.GetFloat("EffectsVolume"));
     }
 
     public void PlayAudio(AudioSource audio)

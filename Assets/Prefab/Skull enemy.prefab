@@ -17,6 +17,7 @@ GameObject:
   - component: {fileID: 2303386439069229484}
   - component: {fileID: 2303386439069229474}
   - component: {fileID: 2303386439069229473}
+  - component: {fileID: 1694067025307874826}
   m_Layer: 12
   m_Name: Skull
   m_TagString: Enemy
@@ -187,7 +188,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   name: Skull
-  hp: 10
+  hp: 6
   speed: 1
   knockbackForceX: 1
   knockbackForceY: 1
@@ -239,7 +240,22 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDamaged: 0
   deathEffect: {fileID: 4656197329296098100, guid: 9b6d1f3899e3416498d79b7cc3870e70, type: 3}
-  originalHealth: 10
+  originalHealth: 6
+  damageSound: {fileID: 0}
+--- !u!114 &1694067025307874826
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2303386439069229483}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968b6b10324fa894d9bb51e7a3386248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  original: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  blink: {fileID: 2100000, guid: ed970610cde527544881263efb84a005, type: 2}
 --- !u!1 &2303386440330682784
 GameObject:
   m_ObjectHideFlags: 0
