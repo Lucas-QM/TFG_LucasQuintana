@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -8,6 +9,9 @@ public class ChangeMusic : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        AudioManager.instance.levelMusic = audio;
+        print("Ha entrado");
+        AudioManager.instance.BGMusic.Stop();
+        AudioManager.instance.BGMusic = audio;
+        AudioManager.instance.PlayAudio(AudioManager.instance.BGMusic);
     }
 }

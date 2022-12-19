@@ -122,6 +122,19 @@ public class EnemyMovement : MonoBehaviour
         {
             if (distanceFromPlayer < lineOfSite)
             {
+                if(player.position.x > transform.position.x)
+                {
+                    if (!walksRight)
+                    {
+                        Flip();
+                    }
+                } else
+                {
+                    if (walksRight)
+                    {
+                        Flip();
+                    }
+                }
                 transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
             }
         }
@@ -131,7 +144,7 @@ public class EnemyMovement : MonoBehaviour
             if(distanceFromPlayer < lineOfSite)
             {
                 isPatrol = false;
-                speed = 2;
+                speed = 2.9f;
                 isFollower = true;
             } else
             {

@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public AudioMixer musicMixer, effectsMixer;
 
-    public AudioSource playerDamage, mainMenu, levelMusic;
+    public AudioSource playerDamage, BGMusic;
 
     public static AudioManager instance;
 
@@ -27,7 +27,7 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //PlayAudio(backgroundMusic);
+        PlayAudio(BGMusic);
         masterSlider.value = masterVol;
         effectsSlider.value = effectsVol;
 

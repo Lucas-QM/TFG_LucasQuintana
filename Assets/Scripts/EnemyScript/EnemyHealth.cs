@@ -11,6 +11,7 @@ public class EnemyHealth : MonoBehaviour
     Blink blink;
     Rigidbody2D rb;
     public float originalHealth;
+    public AudioSource damageSound;
 
     // Start is called before the first frame update
     void Start()
@@ -26,6 +27,7 @@ public class EnemyHealth : MonoBehaviour
         if(collision.CompareTag("Weapon") && !isDamaged)
         {
             enemy.hp -= 2f;
+            AudioManager.instance.PlayAudio(damageSound);
             if(collision.transform.position.x < transform.position.x)
             {
                 rb.AddForce(new Vector2(enemy.knockbackForceX, enemy.knockbackForceY), ForceMode2D.Force);
