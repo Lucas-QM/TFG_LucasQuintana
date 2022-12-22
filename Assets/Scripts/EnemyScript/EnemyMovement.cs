@@ -144,7 +144,7 @@ public class EnemyMovement : MonoBehaviour
             if(distanceFromPlayer < lineOfSite)
             {
                 isPatrol = false;
-                speed = 2.9f;
+                speed = 2.5f;
                 isFollower = true;
             } else
             {

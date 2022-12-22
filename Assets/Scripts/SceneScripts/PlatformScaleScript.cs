@@ -12,7 +12,7 @@ public class PlatformScaleScript : MonoBehaviour
             {
                 gameObject.GetComponent<ObjectMovement>().startCd = true;
             }
-            collision.transform.SetParent(this.transform);
+            collision.transform.parent.SetParent(this.transform);
         }
     }
 
@@ -20,7 +20,7 @@ public class PlatformScaleScript : MonoBehaviour
     {
         if (collision.CompareTag("Player"))
         {
-            collision.transform.SetParent(null);
+            collision.transform.parent.SetParent(null);
         }
     }
 }

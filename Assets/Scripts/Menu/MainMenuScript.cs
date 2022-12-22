@@ -39,7 +39,9 @@ public class MainMenuScript : MonoBehaviour
 
     public void GoToMainMenu()
     {
+        print("Funciona");
         AudioManager.instance.BGMusic.Stop();
+        
         SceneManager.LoadScene(0);
     }
 
