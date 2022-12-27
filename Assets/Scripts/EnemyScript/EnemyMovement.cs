@@ -13,6 +13,7 @@ public class EnemyMovement : MonoBehaviour
     public bool isPatrol;
     public bool isSearcher;
     public bool isFollower;
+    public bool isMoverShooter;
     public bool isFlying;
     public bool walksRight;
     public bool shouldWait;
@@ -22,6 +23,11 @@ public class EnemyMovement : MonoBehaviour
     public Transform wallCheck, pitCheck, groundCheck;
     bool wallDetected, pitDetected, isGrounded;
     public float detectionRadius;
+    public float shootingRange;
+    public GameObject bullet;
+    public GameObject bulletParent;
+    public float fireRate = 1f;
+    public float nextFireTime;
     public LayerMask whatIsGround;
 
     public Transform pointA, pointB;
@@ -153,6 +159,32 @@ public class EnemyMovement : MonoBehaviour
                 isPatrol = true;
             }
         }
+
+        if (isMoverShooter)
+        {
+            if(distanceFromPlayer < lineOfSite && distanceFromPlayer > shootingRange)
+            {
+                if (player.position.x > transform.position.x)
+                {
+                    if (!walksRight)
+                    {
+                        Flip();
+                    }
+                }
+                else
+                {
+                    if (walksRight)
+                    {
+                        Flip();
+                    }
+                }
+                transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+            } else if(distanceFromPlayer <= shootingRange && nextFireTime < Time.time)
+            {
+                Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+                nextFireTime = Time.time + fireRate;
+            }
+        }
     }
 
     IEnumerator Waiting()
@@ -176,5 +208,6 @@ public class EnemyMovement : MonoBehaviour
     {
         Gizmos.color = Color.green;
         Gizmos.DrawWireSphere(transform.position, lineOfSite);
+        Gizmos.DrawWireSphere(transform.position, shootingRange);
     }
 }
