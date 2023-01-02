@@ -2,17 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class LeverDesactivation : MonoBehaviour
+public class LeverController : MonoBehaviour
 {
-    public GameObject ObjectToActivate;
-
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Weapon"))
+        if(collision.CompareTag("Weapon") && transform.GetChild(0).gameObject.activeSelf)
         {
-            ObjectToActivate.SetActive(false);
             transform.GetChild(0).gameObject.SetActive(false);
             transform.GetChild(1).gameObject.SetActive(true);
+            transform.GetComponentInParent<MecanismController>().leversActive++;
         }
     }
 }
