@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PlayerController : MonoBehaviour
 {
-    public float speed, jumpHeight;
+    public float speed, jumpHeight, damageToGive;
     float velX, velY;
     Rigidbody2D rb;
     public Transform groundCheck;

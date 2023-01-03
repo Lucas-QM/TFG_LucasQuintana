@@ -211,6 +211,7 @@ MonoBehaviour:
   isPatrol: 0
   isSearcher: 0
   isFollower: 1
+  isMoverShooter: 0
   isFlying: 1
   walksRight: 0
   shouldWait: 0
@@ -220,6 +221,11 @@ MonoBehaviour:
   pitCheck: {fileID: 0}
   groundCheck: {fileID: 0}
   detectionRadius: 0
+  shootingRange: 0
+  bullet: {fileID: 0}
+  bulletParent: {fileID: 0}
+  fireRate: 1
+  nextFireTime: 0
   whatIsGround:
     serializedVersion: 2
     m_Bits: 0
@@ -242,6 +248,9 @@ MonoBehaviour:
   deathEffect: {fileID: 4656197329296098100, guid: 9b6d1f3899e3416498d79b7cc3870e70, type: 3}
   originalHealth: 6
   damageSound: {fileID: 0}
+  potionRed: {fileID: 8300316975140284901, guid: 12e07e8d97b35304ab546a2188ec282c, type: 3}
+  potionBlue: {fileID: 3475295391969548420, guid: 30695a4368e59384eb4be794bb966703, type: 3}
+  potionYellow: {fileID: 8852951858128696959, guid: 2f70989419977264dac91dbfe0df36e3, type: 3}
 --- !u!114 &1694067025307874826
 MonoBehaviour:
   m_ObjectHideFlags: 0

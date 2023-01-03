@@ -12,6 +12,7 @@ public class EnemyHealth : MonoBehaviour
     Rigidbody2D rb;
     public float originalHealth;
     public AudioSource damageSound;
+    public GameObject potionRed, potionBlue, potionYellow;
 
     // Start is called before the first frame update
     void Start()
@@ -26,7 +27,7 @@ public class EnemyHealth : MonoBehaviour
     {
         if(collision.CompareTag("Weapon") || collision.CompareTag("Magic") && !isDamaged)
         {
-            enemy.hp -= 2f;
+            DamageReceived(collision);
             AudioManager.instance.PlayAudio(damageSound);
             if(collision.transform.position.x < transform.position.x)
             {
@@ -40,15 +41,43 @@ public class EnemyHealth : MonoBehaviour
             if(enemy.hp <= 0)
             {
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
+                float chance = Random.Range(1f, 100f);
+                if ( chance < 75)
+                {
+                    float potionChance = Random.Range(1f, 100f);
+                    if(potionChance < 50)
+                    {
+                        Instantiate(potionRed, transform.position, Quaternion.identity);
+                    } else if(potionChance > 50 && potionChance < 100)
+                    {
+                        Instantiate(potionBlue, transform.position, Quaternion.identity);
+                    } else
+                    {
+                        Instantiate(potionYellow, transform.position, Quaternion.identity);
+                    }
+                }
 
                 if (enemy.shouldRespawn)
                 {
                     transform.GetComponentInParent<RespawnScript>().StartCoroutine(GetComponentInParent<RespawnScript>().RespawnEnemy());
                 } else
                 {
-                    Destroy(gameObject);
+                    Destroy(transform.parent.gameObject);
                 }
             }
+        }
+    }
+
+    private void DamageReceived(Collider2D collision)
+    {
+        if (collision.CompareTag("Weapon"))
+        {
+            print(collision.GetComponentInParent<PlayerController>().damageToGive + "golpe melee");
+            enemy.hp -= collision.GetComponentInParent<PlayerController>().damageToGive;
+        } else
+        {
+            print(collision.GetComponent<Magic>().damageToGive + "golpe magico");
+            enemy.hp -= collision.GetComponent<Magic>().damageToGive;
         }
     }
 

@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class SubWeapons : MonoBehaviour
 {
 
-    public float ManaCost;
+    public float ManaCost, damageToGive;
     public GameObject magic;
 
     // Update is called once per frame
