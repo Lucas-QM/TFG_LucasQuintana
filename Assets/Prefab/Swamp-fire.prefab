@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 7984564607586005073}
   - component: {fileID: 7984564607586005075}
   - component: {fileID: -788337375129084855}
+  - component: {fileID: -5444256819971314719}
   - component: {fileID: 7984564607586005072}
   - component: {fileID: 7984564607586005087}
   - component: {fileID: -84613937827659989}
@@ -121,6 +122,19 @@ MonoBehaviour:
   knockbackForceY: 0
   damageToGive: 10
   shouldRespawn: 0
+--- !u!114 &-5444256819971314719
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7984564607586005086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e08070f52af8a74c86b80b4e99c1f66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  secondsDestroy: 3
 --- !u!95 &7984564607586005072
 Animator:
   serializedVersion: 4

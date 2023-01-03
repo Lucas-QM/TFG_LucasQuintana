@@ -48,7 +48,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.CompareTag("Enemy") && !isInmune)
+        if(collision.CompareTag("Enemy") || collision.CompareTag("Projectile") && !isInmune)
         {
             hp -= collision.GetComponent<Enemy>().damageToGive;
             AudioManager.instance.playerDamage.Play();

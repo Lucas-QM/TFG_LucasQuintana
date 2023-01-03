@@ -170,8 +170,7 @@ public class EnemyMovement : MonoBehaviour
                     {
                         Flip();
                     }
-                }
-                else
+                } else
                 {
                     if (walksRight)
                     {
