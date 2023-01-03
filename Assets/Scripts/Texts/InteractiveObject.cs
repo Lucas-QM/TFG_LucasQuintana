@@ -6,12 +6,23 @@ using UnityEngine;
 public class InteractiveObject : MonoBehaviour
 {
     public Texts texts;
+    public bool isInteractuable;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "Weapon")
+        if (isInteractuable)
         {
-            FindObjectOfType<ControlDialoge>().ActiveDialoge(texts);
+            if (collision.CompareTag("Weapon"))
+            {
+                FindObjectOfType<ControlDialoge>().ActiveDialoge(texts);
+            }
+        } else
+        {
+            if (collision.CompareTag("Player"))
+            {
+                FindObjectOfType<ControlDialoge>().ActiveDialoge(texts);
+            }
         }
+        
     }
 }
