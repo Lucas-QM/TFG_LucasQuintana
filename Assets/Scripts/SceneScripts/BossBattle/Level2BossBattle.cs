@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Level2BossBattle : MonoBehaviour
 {
-    public GameObject boss, platform, toNextLevel;
+    public GameObject boss, platform, toNextLevel, bossUI;
 
     // Update is called once per frame
     void Update()
@@ -13,6 +13,7 @@ public class Level2BossBattle : MonoBehaviour
         {
             platform.SetActive(true);
             toNextLevel.SetActive(false);
+            bossUI.SetActive(false);
         }
     }
 
@@ -21,6 +22,7 @@ public class Level2BossBattle : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             boss.SetActive(true);
+            bossUI.SetActive(true);
         }
     }
 }

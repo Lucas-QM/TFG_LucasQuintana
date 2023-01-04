@@ -1,11 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
     Enemy enemy;
-    public bool isDamaged;
+    public bool isDamaged, hasHealthBar;
     public GameObject deathEffect;
     private SpriteRenderer sprite;
     Blink blink;
@@ -13,6 +14,7 @@ public class EnemyHealth : MonoBehaviour
     public float originalHealth;
     public AudioSource damageSound;
     public GameObject potionRed, potionBlue, potionYellow;
+    public Image healthImage;
 
     // Start is called before the first frame update
     void Start()
@@ -21,6 +23,14 @@ public class EnemyHealth : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
         blink = GetComponent<Blink>();
         enemy = GetComponent<Enemy>();
+    }
+
+    private void Update()
+    {
+        if (hasHealthBar)
+        {
+            healthImage.fillAmount = enemy.hp / originalHealth;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

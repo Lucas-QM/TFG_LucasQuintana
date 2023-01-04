@@ -20,6 +20,7 @@ public class Level2BossMovement : MonoBehaviour
     {
         isWaiting = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
+        teletransport();
     }
 
     private void FixedUpdate()
@@ -51,9 +52,7 @@ public class Level2BossMovement : MonoBehaviour
         } else if(attacksMade == attacksBeforeTp)
         {
             attacksMade = 0;
-            int nextPosition = Random.Range(0, positions.Length);
-            transform.position = positions[nextPosition].transform.position;
-
+            teletransport();
         }
     }
 
@@ -69,6 +68,12 @@ public class Level2BossMovement : MonoBehaviour
     {
         walksRight = !walksRight;
         transform.localScale *= new Vector2(-1, transform.localScale.y);
+    }
+
+    public void teletransport()
+    {
+        int nextPosition = Random.Range(0, positions.Length);
+        transform.position = positions[nextPosition].transform.position;
     }
 
     private void OnDrawGizmosSelected()
