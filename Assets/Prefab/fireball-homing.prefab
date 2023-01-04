@@ -123,7 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: 
   hp: 0
-  speed: 0
+  speed: 2
   knockbackForceX: 0
   knockbackForceY: 0
   damageToGive: 10
@@ -153,7 +153,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 763c0769696937f4fb59232276bb4a54, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
 --- !u!58 &5539410709391493725
 CircleCollider2D:
   m_ObjectHideFlags: 0
