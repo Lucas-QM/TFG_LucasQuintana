@@ -5,11 +5,12 @@ using UnityEngine;
 public class BulletScript : MonoBehaviour
 {
     GameObject target;
-    public float speed;
+    private float speed;
     Rigidbody2D bulletRB;
     // Start is called before the first frame update
     void Start()
     {
+        speed = GetComponent<Enemy>().speed;
         bulletRB = GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player");
         Vector2 moveDir = (target.transform.position -transform.position).normalized * speed;
@@ -17,8 +18,7 @@ public class BulletScript : MonoBehaviour
         {
             transform.localScale *= new Vector2(-1, transform.localScale.y);
         }
-        bulletRB.velocity = new Vector2(moveDir.x, moveDir.y);
-        Destroy(this.gameObject, 2);
+        bulletRB.velocity = new Vector2(moveDir.x, moveDir.y);;
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

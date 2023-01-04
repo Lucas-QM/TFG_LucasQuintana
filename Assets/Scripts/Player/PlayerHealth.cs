@@ -22,7 +22,7 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        gameOverImg.SetActive(false);
+        //gameOverImg.SetActive(false);
         rb = GetComponentInParent<Rigidbody2D>();
         sprite = GetComponentInParent<SpriteRenderer>();
         material = GetComponentInParent<Blink>();
@@ -34,9 +34,9 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        healthImage.fillAmount = hp / 100;
-        manaImage.fillAmount = mana / 100;
-        if(hp > maxHealth)
+        //healthImage.fillAmount = hp / 100;
+        //manaImage.fillAmount = mana / 100;
+        if (hp > maxHealth)
         {
             hp = maxHealth;
         }
@@ -51,8 +51,8 @@ public class PlayerHealth : MonoBehaviour
         if(collision.CompareTag("Enemy") || collision.CompareTag("Projectile") && !isInmune)
         {
             hp -= collision.GetComponent<Enemy>().damageToGive;
-            AudioManager.instance.playerDamage.Play();
-            StartCoroutine(inmunity());
+            //AudioManager.instance.playerDamage.Play();
+            StartCoroutine(Inmunity());
 
             if(collision.transform.position.x > transform.position.x)
             {
@@ -71,7 +71,7 @@ public class PlayerHealth : MonoBehaviour
         }
     }
 
-    IEnumerator inmunity()
+    IEnumerator Inmunity()
     {
         isInmune = true;
         sprite.material = material.blink;

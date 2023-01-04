@@ -13,14 +13,13 @@ public class Level2BossMovement : MonoBehaviour
 
     public int attacksBeforeTp;
     private int attacksMade;
-    private bool walksRight;
-    private bool isWaiting;
+    private bool walksRight, isWaiting;
     // Start is called before the first frame update
     void Start()
     {
         isWaiting = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        teletransport();
+        teleportation();
     }
 
     private void FixedUpdate()
@@ -52,7 +51,7 @@ public class Level2BossMovement : MonoBehaviour
         } else if(attacksMade == attacksBeforeTp)
         {
             attacksMade = 0;
-            teletransport();
+            teleportation();
         }
     }
 
@@ -70,7 +69,7 @@ public class Level2BossMovement : MonoBehaviour
         transform.localScale *= new Vector2(-1, transform.localScale.y);
     }
 
-    public void teletransport()
+    public void teleportation()
     {
         int nextPosition = Random.Range(0, positions.Length);
         transform.position = positions[nextPosition].transform.position;
