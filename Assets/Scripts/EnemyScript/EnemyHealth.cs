@@ -50,7 +50,7 @@ public class EnemyHealth : MonoBehaviour
             StartCoroutine(Damager());
             if(enemy.hp <= 0)
             {
-                //Instantiate(deathEffect, transform.position, Quaternion.identity);
+                Instantiate(deathEffect, transform.position, Quaternion.identity);
                 float chance = Random.Range(1f, 100f);
                 if ( chance < 75)
                 {

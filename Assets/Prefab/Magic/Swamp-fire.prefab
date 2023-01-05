@@ -102,7 +102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f3294b7bc461aa4abda4d6387a68bc7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 3
 --- !u!114 &-788337375129084855
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -117,7 +116,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: SwampFire
   hp: 0
-  speed: 0
+  speed: 2
   knockbackForceX: 0
   knockbackForceY: 0
   damageToGive: 10

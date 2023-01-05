@@ -53,14 +53,14 @@ public class Level3BossMovement : MonoBehaviour
         }
         else if (attacksMade == attacksBeforeSpecial && !doingAnimation)
         {
-            //if (Random.Range(1, 10) < 7)
-            //{
-            //    SummonMinions();
-            //}
-            //else
-            //{
+            if (Random.Range(1, 10) < 7)
+            {
+                SummonMinions();
+            }
+            else
+            {
                 BulletHell();
-            //}
+            }
         }
     }
 

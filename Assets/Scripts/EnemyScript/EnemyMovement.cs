@@ -18,6 +18,8 @@ public class EnemyMovement : MonoBehaviour
     public bool walksRight;
     public bool shouldWait;
     public bool isWaiting;
+    public bool isSniper;
+    public bool hasAnimation;
     public float timeToWait;
 
     public Transform wallCheck, pitCheck, groundCheck;
@@ -87,7 +89,10 @@ public class EnemyMovement : MonoBehaviour
             {
                 if (!isWaiting)
                 {
-                    anim.SetBool("Idle", false);
+                    if(hasAnimation)
+                    {
+                        anim.SetBool("Idle", false);
+                    }
                     rb.velocity = new Vector2(-speed + Time.deltaTime, rb.velocity.y);
                 }
 
@@ -107,7 +112,10 @@ public class EnemyMovement : MonoBehaviour
             {
                 if (!isWaiting)
                 {
-                    anim.SetBool("Idle", false);
+                    if (hasAnimation)
+                    {
+                        anim.SetBool("Idle", false);
+                    }
                     rb.velocity = new Vector2(speed + Time.deltaTime, rb.velocity.y);
                 }
 
@@ -178,10 +186,39 @@ public class EnemyMovement : MonoBehaviour
                     }
                 }
                 transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
-            } else if(distanceFromPlayer <= shootingRange && nextFireTime < Time.time)
+            } else if(distanceFromPlayer < shootingRange && nextFireTime < Time.time)
             {
                 Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
                 nextFireTime = Time.time + fireRate;
+            }
+        }
+        if (isSniper)
+        {
+            if (distanceFromPlayer < shootingRange)
+            {
+                anim.SetBool("Idle", false);
+                if (player.position.x > transform.position.x)
+                {
+                    if (!walksRight)
+                    {
+                        Flip();
+                    }
+                }
+                else
+                {
+                    if (walksRight)
+                    {
+                        Flip();
+                    }
+                }
+                if(nextFireTime < Time.time)
+                {
+                    Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+                    nextFireTime = Time.time + fireRate;
+                }
+            } else
+            {
+                anim.SetBool("Idle", true);
             }
         }
     }
