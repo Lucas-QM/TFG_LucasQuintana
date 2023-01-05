@@ -6,8 +6,12 @@ public class BossBattle : MonoBehaviour
 {
     public GameObject boss, bossUI;
     public GameObject[] objectsToActivate, objectsToDesactivate;
-    public bool hasToActivate, hasToDesactivate;
+    public bool hasToActivate, hasToDesactivate, firstTime;
 
+    private void Start()
+    {
+        firstTime = false;
+    }
     // Update is called once per frame
     void Update()
     {
@@ -28,10 +32,11 @@ public class BossBattle : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.CompareTag("Player"))
+        if (collision.CompareTag("Player") && !firstTime)
         {
             boss.SetActive(true);
             bossUI.SetActive(true);
+            firstTime = true;
 
             if (hasToActivate)
             {

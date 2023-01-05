@@ -9,8 +9,8 @@ public class Level4BossMovement : MonoBehaviour
 
     public int attacksBeforeSpecial;
     public float cdBetweenAttacks, lineOfSite, shootingRange;
-    public bool doSpecialAttack, walksRight, waitingAttack;
-    public GameObject bullet, bulletParent;
+    public bool doSpecialAttack, walksRight, waitingAttack, preparingAttack, doingSpecial;
+    public GameObject bullet, bulletParent, positionSpecial;
 
     private Transform player;
     private int attacksMade;
@@ -20,6 +20,9 @@ public class Level4BossMovement : MonoBehaviour
     {
         doSpecialAttack = false;
         waitingAttack = false;
+        preparingAttack = true;
+        doingSpecial = false;
+        anim = GetComponent<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
         speed = GetComponent<Enemy>().speed;
     }
@@ -51,15 +54,26 @@ public class Level4BossMovement : MonoBehaviour
             }
             if (!waitingAttack)
             {
-                Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+                //Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+                print(attacksMade + "ATACA");
                 attacksMade++;
                 StartCoroutine(WaitingAttack());
             }
         } else
         {
             attacksMade = 0;
-            print("fresco");
-            //doSpecialAttack = true;
+            doSpecialAttack = true;
+            if (preparingAttack)
+            {
+                transform.position = positionSpecial.transform.position;
+                GetComponent<BoxCollider2D>().enabled = false;
+                GetComponent<CapsuleCollider2D>().enabled = false;
+            }
+            if (!doingSpecial)
+            {
+                print("entra al if para el especial");
+                StartCoroutine(SpecialAttack());
+            }
         }
     }
 
@@ -74,6 +88,23 @@ public class Level4BossMovement : MonoBehaviour
         waitingAttack = true;
         yield return new WaitForSeconds(cdBetweenAttacks);
         waitingAttack = false;
+    }
+
+    IEnumerator SpecialAttack()
+    {
+        doingSpecial = true;
+        print("entra al ataque especial");
+        anim.SetBool("Breath", true);
+        yield return new WaitForSeconds(0.8f);
+        preparingAttack = false;
+        print(preparingAttack + " Debería dejar de seguir el punto");
+        yield return new WaitForSeconds(0.7f);
+        doingSpecial = false;
+        doSpecialAttack = false;
+        preparingAttack = true;
+        GetComponent<BoxCollider2D>().enabled = true;
+        GetComponent<CapsuleCollider2D>().enabled = true;
+        anim.SetBool("Breath", false);
     }
 
     private void OnDrawGizmosSelected()
