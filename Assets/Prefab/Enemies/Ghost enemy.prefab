@@ -155,6 +155,7 @@ MonoBehaviour:
   walksRight: 0
   shouldWait: 0
   isWaiting: 0
+  isSniper: 0
   hasAnimation: 0
   timeToWait: 0
   wallCheck: {fileID: 0}

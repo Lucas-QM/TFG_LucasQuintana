@@ -218,6 +218,7 @@ MonoBehaviour:
   walksRight: 0
   shouldWait: 0
   isWaiting: 0
+  isSniper: 0
   hasAnimation: 0
   timeToWait: 0
   wallCheck: {fileID: 6922435285583578279}
@@ -404,7 +405,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 6922435285902076261}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -6.622, y: -4.46, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
