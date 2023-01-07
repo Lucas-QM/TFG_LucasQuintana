@@ -54,8 +54,8 @@ public class EnemyMovement : MonoBehaviour
         if (!isFlying)
         {
             pitDetected = !Physics2D.OverlapCircle(pitCheck.position, detectionRadius, whatIsGround);
-            wallDetected = !Physics2D.OverlapCircle(wallCheck.position, detectionRadius, whatIsGround);
-            isGrounded = !Physics2D.OverlapCircle(groundCheck.position, detectionRadius, whatIsGround);
+            wallDetected = Physics2D.OverlapCircle(wallCheck.position, detectionRadius, whatIsGround);
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, detectionRadius, whatIsGround);
 
             if (pitDetected || wallDetected && isGrounded)
             {
