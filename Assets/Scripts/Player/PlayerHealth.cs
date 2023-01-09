@@ -22,12 +22,12 @@ public class PlayerHealth : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        //gameOverImg.SetActive(false);
+        gameOverImg.SetActive(false);
         rb = GetComponentInParent<Rigidbody2D>();
         sprite = GetComponentInParent<SpriteRenderer>();
         material = GetComponentInParent<Blink>();
-        hp = maxHealth;
-        mana = maxMana;
+        hp = PlayerPrefs.GetFloat("Health", maxHealth);
+        mana = PlayerPrefs.GetFloat("Mana", maxMana);
         material.original = sprite.material;
     }
 

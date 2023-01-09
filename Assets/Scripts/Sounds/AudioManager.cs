@@ -28,8 +28,6 @@ public class AudioManager : MonoBehaviour
     void Start()
     {
         PlayAudio(BGMusic);
-        //masterSlider.value = masterVol;
-        //effectsSlider.value = effectsVol;
 
         masterSlider.minValue = -80;
         masterSlider.maxValue = 10;
@@ -39,13 +37,6 @@ public class AudioManager : MonoBehaviour
 
         masterSlider.value = PlayerPrefs.GetFloat("MusicVolume", 0);
         effectsSlider.value = PlayerPrefs.GetFloat("EffectsVolume", 0);
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        //MasterVolume();
-        //EffectsVolume();
     }
 
     public void MasterVolume()

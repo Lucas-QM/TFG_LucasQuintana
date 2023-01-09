@@ -33,4 +33,29 @@ public class DataManager : MonoBehaviour
     {
         PlayerPrefs.SetFloat("EffectsVolume", value);
     }
+
+    public void HealthData(float value)
+    {
+        PlayerPrefs.SetFloat("Health", value);
+    }
+
+    public void ManaData(float value)
+    {
+        PlayerPrefs.SetFloat("Mana", value);
+    }
+
+    public void Level1MecanismData(int value)
+    {
+        PlayerPrefs.SetInt("level1Mecanism", value);
+    }
+
+    public void Level2MecanismData(int value)
+    {
+        PlayerPrefs.SetInt("level2Mecanism", value);
+    }
+
+    public void Level4MecanismData(int value)
+    {
+        PlayerPrefs.SetInt("level4Mecanism", value);
+    }
 }
