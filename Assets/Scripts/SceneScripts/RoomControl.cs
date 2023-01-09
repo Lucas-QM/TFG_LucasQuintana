@@ -4,12 +4,17 @@ using UnityEngine;
 
 public class RoomControl : MonoBehaviour
 {
+    public GameObject enemies;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.CompareTag("Player"))
         {
             transform.GetChild(0).gameObject.SetActive(true);
             CameraController.instance.activeRoom = transform.GetChild(0);
+            if(enemies != null)
+            {
+                enemies.SetActive(true);
+            }
         }
     }
 
@@ -26,6 +31,10 @@ public class RoomControl : MonoBehaviour
         if (collision.CompareTag("Player"))
         {
             transform.GetChild(0).gameObject.SetActive(false);
+            if (enemies != null)
+            {
+                enemies.SetActive(false);
+            }
         }
     }
 }
