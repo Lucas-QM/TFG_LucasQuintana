@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class ChangeBackground : MonoBehaviour
 {
-    public GameObject background1, background2, camera;
+    public GameObject camera;
     public bool goUp;
 
     private void OnTriggerEnter2D(Collider2D collision)

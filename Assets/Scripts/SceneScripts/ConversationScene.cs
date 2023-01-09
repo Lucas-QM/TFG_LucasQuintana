@@ -7,7 +7,7 @@ public class ConversationScene : MonoBehaviour
     public GameObject platform;
     private void OnTriggerStay2D(Collider2D collision)
     {
-        if (!collision.GetComponentInParent<PlayerController>().isTalking)
+        if (collision.CompareTag("Player") && !collision.GetComponentInParent<PlayerController>().isTalking)
         {
             platform.SetActive(false);
         }

@@ -7,6 +7,7 @@ public class BossBattle : MonoBehaviour
     public GameObject boss, bossUI;
     public GameObject[] objectsToActivate, objectsToDesactivate;
     public bool hasToActivate, hasToDesactivate, firstTime;
+    public AudioSource bossMusic;
 
     private void Start()
     {
@@ -34,6 +35,7 @@ public class BossBattle : MonoBehaviour
     {
         if (collision.CompareTag("Player") && !firstTime)
         {
+            AudioManager.instance.BGMusic = bossMusic;
             boss.SetActive(true);
             bossUI.SetActive(true);
             firstTime = true;
