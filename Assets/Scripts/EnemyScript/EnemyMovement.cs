@@ -74,7 +74,10 @@ public class EnemyMovement : MonoBehaviour
         if (isWalker)
         {
             rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-            anim.SetBool("Idle", false);
+            if (hasAnimation)
+            {
+                anim.SetBool("Idle", false);
+            }
             if (!walksRight)
             {
                 rb.velocity = new Vector2(-speed + Time.deltaTime, rb.velocity.y);

@@ -34,8 +34,8 @@ public class PlayerHealth : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        //healthImage.fillAmount = hp / 100;
-        //manaImage.fillAmount = mana / 100;
+        healthImage.fillAmount = hp / 100;
+        manaImage.fillAmount = mana / 100;
         if (hp > maxHealth)
         {
             hp = maxHealth;

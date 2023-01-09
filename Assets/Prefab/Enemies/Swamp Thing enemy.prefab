@@ -75,6 +75,7 @@ GameObject:
   - component: {fileID: 6922435285230903269}
   - component: {fileID: 6922435285230903268}
   - component: {fileID: 6922435285230903270}
+  - component: {fileID: 1923493755764620745}
   - component: {fileID: 6922435285230903264}
   - component: {fileID: 6922435285230903279}
   - component: {fileID: 6922435285230903267}
@@ -236,6 +237,20 @@ MonoBehaviour:
   pointA: {fileID: 6922435285691508007}
   pointB: {fileID: 6922435286825522962}
   lineOfSite: 0
+--- !u!114 &1923493755764620745
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6922435285230903277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 968b6b10324fa894d9bb51e7a3386248, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  original: {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  blink: {fileID: 2100000, guid: ed970610cde527544881263efb84a005, type: 2}
 --- !u!61 &6922435285230903264
 BoxCollider2D:
   m_ObjectHideFlags: 0
