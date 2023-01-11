@@ -11,6 +11,7 @@ public class LeverController : MonoBehaviour
             transform.GetChild(0).gameObject.SetActive(false);
             transform.GetChild(1).gameObject.SetActive(true);
             gameObject.GetComponentInParent<MecanismController>().leversActive++;
+            gameObject.GetComponentInParent<MecanismController>().LeversOperated();
         }
     }
 }

@@ -38,7 +38,7 @@ public class EnemyHealth : MonoBehaviour
         if(collision.CompareTag("Weapon") || collision.CompareTag("Magic") && !isDamaged)
         {
             DamageReceived(collision);
-            //AudioManager.instance.PlayAudio(damageSound);
+            AudioManager.instance.PlayAudio(damageSound);
             if(collision.transform.position.x < transform.position.x)
             {
                 rb.AddForce(new Vector2(enemy.knockbackForceX, enemy.knockbackForceY), ForceMode2D.Force);

@@ -8,7 +8,7 @@ public class AudioManager : MonoBehaviour
 {
     public AudioMixer musicMixer, effectsMixer;
 
-    public AudioSource playerDamage, BGMusic, skeletonHit, hellHoundHit, skullHit, spark, potion, ghostDamage, swampThingDamage, bossDamage;
+    public AudioSource playerDamage, BGMusic, skeletonHit, hellHoundHit, skullHit, spark, potion, ghostDamage, swampThingDamage, bossDamage, wizardDamage, spiderDamage;
 
     public static AudioManager instance;
 

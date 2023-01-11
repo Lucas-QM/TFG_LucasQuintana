@@ -12,9 +12,10 @@ GameObject:
   - component: {fileID: 1249174318838807282}
   - component: {fileID: 1249174318838807283}
   - component: {fileID: 1249174318838807280}
+  - component: {fileID: -6808973935732219021}
   - component: {fileID: 1249174318838807281}
-  - component: {fileID: 5626250933279667439}
   - component: {fileID: 1249174318838807287}
+  - component: {fileID: 4275751775281099649}
   m_Layer: 12
   m_Name: fireball-homing
   m_TagString: Projectile
@@ -121,13 +122,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 2
   knockbackForceX: 0
   knockbackForceY: 0
   damageToGive: 10
   shouldRespawn: 0
+--- !u!114 &-6808973935732219021
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249174318838807284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 763c0769696937f4fb59232276bb4a54, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &1249174318838807281
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -141,18 +153,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   secondsDestroy: 3
---- !u!114 &5626250933279667439
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1249174318838807284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2f3294b7bc461aa4abda4d6387a68bc7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!58 &1249174318838807287
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -169,3 +169,24 @@ CircleCollider2D:
   m_Offset: {x: -0.0005531907, y: 0}
   serializedVersion: 2
   m_Radius: 0.09182674
+--- !u!50 &4275751775281099649
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1249174318838807284}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4

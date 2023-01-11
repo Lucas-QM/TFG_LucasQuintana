@@ -8,7 +8,7 @@ public class Level4BossMovement : MonoBehaviour
     Animator anim;
 
     public int attacksBeforeSpecial;
-    public float cdBetweenAttacks, lineOfSite, shootingRange;
+    public float fireRate, nextFireTime, lineOfSite, shootingRange;
     public bool doSpecialAttack, walksRight, waitingAttack, preparingAttack, doingSpecial;
     public GameObject bullet, bulletParent, positionSpecial;
 
@@ -19,7 +19,6 @@ public class Level4BossMovement : MonoBehaviour
     void Start()
     {
         doSpecialAttack = false;
-        waitingAttack = false;
         preparingAttack = true;
         doingSpecial = false;
         anim = GetComponent<Animator>();
@@ -52,12 +51,11 @@ public class Level4BossMovement : MonoBehaviour
             {
                 transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
             }
-            if (!waitingAttack)
+            if (nextFireTime < Time.time)
             {
-                //Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
-                print(attacksMade + "ATACA");
+                Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
                 attacksMade++;
-                StartCoroutine(WaitingAttack());
+                nextFireTime = Time.time + fireRate;
             }
         } else
         {
@@ -71,7 +69,6 @@ public class Level4BossMovement : MonoBehaviour
             }
             if (!doingSpecial)
             {
-                print("entra al if para el especial");
                 StartCoroutine(SpecialAttack());
             }
         }
@@ -83,21 +80,12 @@ public class Level4BossMovement : MonoBehaviour
         transform.localScale *= new Vector2(-1, transform.localScale.y);
     }
 
-    IEnumerator WaitingAttack()
-    {
-        waitingAttack = true;
-        yield return new WaitForSeconds(cdBetweenAttacks);
-        waitingAttack = false;
-    }
-
     IEnumerator SpecialAttack()
     {
         doingSpecial = true;
-        print("entra al ataque especial");
         anim.SetBool("Breath", true);
         yield return new WaitForSeconds(0.8f);
         preparingAttack = false;
-        print(preparingAttack + " Debería dejar de seguir el punto");
         yield return new WaitForSeconds(0.7f);
         doingSpecial = false;
         doSpecialAttack = false;

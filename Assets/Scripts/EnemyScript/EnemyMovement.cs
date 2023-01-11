@@ -8,34 +8,14 @@ public class EnemyMovement : MonoBehaviour
     Rigidbody2D rb;
     Animator anim;
 
-    public bool isStatic;
-    public bool isWalker;
-    public bool isPatrol;
-    public bool isSearcher;
-    public bool isFollower;
-    public bool isMoverShooter;
-    public bool isFlying;
-    public bool walksRight;
-    public bool shouldWait;
-    public bool isWaiting;
-    public bool isSniper;
-    public bool hasAnimation;
-    public float timeToWait;
-
-    public Transform wallCheck, pitCheck, groundCheck;
-    bool wallDetected, pitDetected, isGrounded;
-    public float detectionRadius;
-    public float shootingRange;
-    public GameObject bullet;
-    public GameObject bulletParent;
-    public float fireRate = 1f;
-    public float nextFireTime;
+    public bool isStatic, isWalker, isPatrol, isSearcher, isFollower, isMoverShooter, isFlying, shouldWait, isSniper, hasAnimation;
+    public float timeToWait, shootingRange, lineOfSite, fireRate = 1f, nextFireTime;
+    public GameObject bullet, bulletParent;
     public LayerMask whatIsGround;
+    public Transform wallCheck, pitCheck, groundCheck, pointA, pointB;
 
-    public Transform pointA, pointB;
-    bool goToA, goToB;
-
-    public float lineOfSite;
+    private bool walksRight, isWaiting, wallDetected, pitDetected, isGrounded, goToA, goToB;
+    private float checkDetectionRadius = 0.1f;
     private Transform player;
 
     // Start is called before the first frame update
@@ -53,9 +33,9 @@ public class EnemyMovement : MonoBehaviour
     {
         if (!isFlying)
         {
-            pitDetected = !Physics2D.OverlapCircle(pitCheck.position, detectionRadius, whatIsGround);
-            wallDetected = Physics2D.OverlapCircle(wallCheck.position, detectionRadius, whatIsGround);
-            isGrounded = Physics2D.OverlapCircle(groundCheck.position, detectionRadius, whatIsGround);
+            pitDetected = !Physics2D.OverlapCircle(pitCheck.position, checkDetectionRadius, whatIsGround);
+            wallDetected = Physics2D.OverlapCircle(wallCheck.position, checkDetectionRadius, whatIsGround);
+            isGrounded = Physics2D.OverlapCircle(groundCheck.position, checkDetectionRadius, whatIsGround);
 
             if (pitDetected || wallDetected && isGrounded)
             {
@@ -66,162 +46,167 @@ public class EnemyMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        if (isStatic)
+        if (isStatic) StaticMovement();
+        if (isWalker) WalkerMovement();
+        if(isPatrol) PatrolMovement();
+        if (isFollower) FollowerMovement();
+        if(isSearcher) SearcherMovement();
+        if (isMoverShooter) MooverShooterMovement();
+        if (isSniper) SniperMovement();
+    }
+
+    private void StaticMovement()
+    {
+        anim.SetBool("Idle", true);
+        rb.constraints = RigidbodyConstraints2D.FreezeAll;
+    }
+
+    private void WalkerMovement()
+    {
+        rb.constraints = RigidbodyConstraints2D.FreezeRotation;
+        if (hasAnimation)
         {
-            anim.SetBool("Idle", true);
-            rb.constraints = RigidbodyConstraints2D.FreezeAll;
+            anim.SetBool("Idle", false);
         }
-        if (isWalker)
+        if (!walksRight)
         {
-            rb.constraints = RigidbodyConstraints2D.FreezeRotation;
-            if (hasAnimation)
+            rb.velocity = new Vector2(-speed + Time.deltaTime, rb.velocity.y);
+        }
+        else
+        {
+            rb.velocity = new Vector2(speed + Time.deltaTime, rb.velocity.y);
+        }
+    }
+
+    private void PatrolMovement()
+    {
+        if (goToA)
+        {
+            if (!isWaiting)
             {
-                anim.SetBool("Idle", false);
-            }
-            if (!walksRight)
-            {
+                if (hasAnimation)
+                {
+                    anim.SetBool("Idle", false);
+                }
                 rb.velocity = new Vector2(-speed + Time.deltaTime, rb.velocity.y);
-            } else
+            }
+
+            if (Vector2.Distance(transform.position, pointA.position) < 0.2f)
             {
+                if (shouldWait)
+                {
+                    StartCoroutine(Waiting());
+                }
+                Flip();
+                goToA = false;
+                goToB = true;
+            }
+        }
+
+        if (goToB)
+        {
+            if (!isWaiting)
+            {
+                if (hasAnimation)
+                {
+                    anim.SetBool("Idle", false);
+                }
                 rb.velocity = new Vector2(speed + Time.deltaTime, rb.velocity.y);
             }
-        }
-        if(isPatrol)
-        {
-            if (goToA)
+
+            if (Vector2.Distance(transform.position, pointB.position) < 0.2f)
             {
-                if (!isWaiting)
+                if (shouldWait)
                 {
-                    if(hasAnimation)
-                    {
-                        anim.SetBool("Idle", false);
-                    }
-                    rb.velocity = new Vector2(-speed + Time.deltaTime, rb.velocity.y);
+                    StartCoroutine(Waiting());
                 }
-
-                if(Vector2.Distance(transform.position, pointA.position) < 0.2f)
-                {
-                    if (shouldWait)
-                    {
-                        StartCoroutine(Waiting());
-                    }
-                    Flip();
-                    goToA = false;
-                    goToB = true;
-                }
-            }
-
-            if (goToB)
-            {
-                if (!isWaiting)
-                {
-                    if (hasAnimation)
-                    {
-                        anim.SetBool("Idle", false);
-                    }
-                    rb.velocity = new Vector2(speed + Time.deltaTime, rb.velocity.y);
-                }
-
-                if (Vector2.Distance(transform.position, pointB.position) < 0.2f)
-                {
-                    if (shouldWait)
-                    {
-                        StartCoroutine(Waiting());
-                    }
-                    Flip();
-                    goToA = true;
-                    goToB = false;
-                }
+                Flip();
+                goToA = true;
+                goToB = false;
             }
         }
-        float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if (isFollower)
-        {
-            if (distanceFromPlayer < lineOfSite)
-            {
-                if(player.position.x > transform.position.x)
-                {
-                    if (!walksRight)
-                    {
-                        Flip();
-                    }
-                } else
-                {
-                    if (walksRight)
-                    {
-                        Flip();
-                    }
-                }
-                transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
-            }
-        }
+    }
 
-        if(isSearcher)
+    private void FollowerMovement()
+    {
+        float distanceFromPlayer = getPlayerDistance();
+        if (distanceFromPlayer < lineOfSite)
         {
-            if(distanceFromPlayer < lineOfSite)
-            {
-                isPatrol = false;
-                speed = 2.5f;
-                isFollower = true;
-            } else
-            {
-                isFollower = false;
-                speed = 1;
-                isPatrol = true;
-            }
+            LookAtPlayer();
+            transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
         }
+    }
 
-        if (isMoverShooter)
+    private void SearcherMovement()
+    {
+        float distanceFromPlayer = getPlayerDistance();
+        if (distanceFromPlayer < lineOfSite)
         {
-            if(distanceFromPlayer < lineOfSite && distanceFromPlayer > shootingRange)
-            {
-                if (player.position.x > transform.position.x)
-                {
-                    if (!walksRight)
-                    {
-                        Flip();
-                    }
-                } else
-                {
-                    if (walksRight)
-                    {
-                        Flip();
-                    }
-                }
-                transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
-            } else if(distanceFromPlayer < shootingRange && nextFireTime < Time.time)
+            isPatrol = false;
+            speed = 2.5f;
+            isFollower = true;
+        }
+        else
+        {
+            isFollower = false;
+            speed = 1;
+            isPatrol = true;
+        }
+    }
+
+    private void MooverShooterMovement()
+    {
+        float distanceFromPlayer = getPlayerDistance();
+        if (distanceFromPlayer < lineOfSite && distanceFromPlayer > shootingRange)
+        {
+            LookAtPlayer();
+            transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
+        }
+        else if (distanceFromPlayer < shootingRange && nextFireTime < Time.time)
+        {
+            Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
+            nextFireTime = Time.time + fireRate;
+        }
+    }
+
+    private void SniperMovement()
+    {
+        float distanceFromPlayer = getPlayerDistance();
+        if (distanceFromPlayer < shootingRange)
+        {
+            anim.SetBool("Idle", false);
+            LookAtPlayer();
+            if (nextFireTime < Time.time)
             {
                 Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
                 nextFireTime = Time.time + fireRate;
             }
         }
-        if (isSniper)
+        else
         {
-            if (distanceFromPlayer < shootingRange)
+            anim.SetBool("Idle", true);
+        }
+    }
+
+    private float getPlayerDistance()
+    {
+        return Vector2.Distance(player.position, transform.position);
+    }
+
+    private void LookAtPlayer()
+    {
+        if (player.position.x > transform.position.x)
+        {
+            if (!walksRight)
             {
-                anim.SetBool("Idle", false);
-                if (player.position.x > transform.position.x)
-                {
-                    if (!walksRight)
-                    {
-                        Flip();
-                    }
-                }
-                else
-                {
-                    if (walksRight)
-                    {
-                        Flip();
-                    }
-                }
-                if(nextFireTime < Time.time)
-                {
-                    Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
-                    nextFireTime = Time.time + fireRate;
-                }
-            } else
+                Flip();
+            }
+        }
+        else
+        {
+            if (walksRight)
             {
-                anim.SetBool("Idle", true);
+                Flip();
             }
         }
     }

@@ -20,12 +20,6 @@ public class MainMenuScript : MonoBehaviour
         Time.timeScale = 1;
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
-
     public void StartGame()
     {
         if (SceneManager.GetActiveScene().buildIndex == 0)

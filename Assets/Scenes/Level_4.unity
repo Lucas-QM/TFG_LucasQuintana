@@ -580,7 +580,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -1383,7 +1382,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -1736,7 +1734,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -2963,7 +2960,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -3538,7 +3534,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -3968,7 +3963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -4099,7 +4093,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -4418,7 +4411,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -4549,7 +4541,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -5142,7 +5133,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 535
+  m_RootOrder: 533
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &77833772
 BoxCollider2D:
@@ -5568,7 +5559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -6032,7 +6022,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -6163,7 +6152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -6539,7 +6527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -6577,7 +6564,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 538
+  m_RootOrder: 536
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &100388798
 BoxCollider2D:
@@ -7114,7 +7101,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -7245,7 +7231,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -7487,7 +7472,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -7729,7 +7713,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -8105,7 +8088,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -8347,7 +8329,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -8922,7 +8903,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -9208,7 +9188,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 160395115}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 56.8604, y: -6.173, z: 0}
+  m_LocalPosition: {x: 56.806, y: -6.173, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -9417,7 +9397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -9548,7 +9527,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -9790,7 +9768,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -9939,7 +9916,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 537
+  m_RootOrder: 535
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &169310367
 BoxCollider2D:
@@ -10663,7 +10640,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -11081,7 +11057,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -11809,7 +11784,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -13644,7 +13618,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -14108,7 +14081,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -14350,7 +14322,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -14481,7 +14452,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -14723,7 +14693,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -14876,6 +14845,7 @@ Transform:
   - {fileID: 1681114658}
   - {fileID: 1033260496}
   - {fileID: 844603729}
+  - {fileID: 1919376221}
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -15114,7 +15084,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -15284,7 +15253,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -15415,7 +15383,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -15546,7 +15513,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -15677,7 +15643,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -15808,7 +15773,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -16161,7 +16125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -16664,117 +16627,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1226094012366465173, guid: fa96cc0750794f84187c911ce95e9ea1, type: 3}
   m_PrefabInstance: {fileID: 277089863}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &277258453
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 277258454}
-  - component: {fileID: 277258456}
-  - component: {fileID: 277258455}
-  m_Layer: 9
-  m_Name: platform-middle (373)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &277258454
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277258453}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 57.898, y: -6.173, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1488061213}
-  m_RootOrder: 530
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!61 &277258455
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277258453}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.012506051, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.47}
-    newSize: {x: 0.15, y: 0.47}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1249879, y: 0.47}
-  m_EdgeRadius: 0
---- !u!212 &277258456
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 277258453}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 5b77792f6aa9883409a8f321ff7ea4bd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
-  m_FlipY: 0
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.47}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &285034052
 GameObject:
   m_ObjectHideFlags: 0
@@ -16953,7 +16805,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -17454,7 +17305,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -17587,7 +17437,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &298257424
 Transform:
   m_ObjectHideFlags: 0
@@ -17627,7 +17477,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &298594242
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18326,7 +18176,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -18860,7 +18709,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -18991,7 +18839,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -19344,7 +19191,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -19667,7 +19513,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 333935102}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 24.02, y: -12.82, z: 0}
+  m_LocalPosition: {x: 51.79, y: -1.76, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -19913,7 +19759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -20044,7 +19889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -20175,7 +20019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -20861,7 +20704,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -20992,7 +20834,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -21567,7 +21408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -21837,7 +21677,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 333935109}
   activeRoom: {fileID: 616943350}
-  dampSpeed: 3
+  dampSpeed: 8
   minModX: 3.35
   maxModX: -3.35
   minModY: 1.9
@@ -22137,7 +21977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -22680,7 +22519,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -23477,7 +23315,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -23719,7 +23556,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -24037,7 +23873,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -24501,7 +24336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -24632,7 +24466,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -25207,7 +25040,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -25480,7 +25312,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -25611,7 +25442,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -25742,7 +25572,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -25873,7 +25702,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -26004,7 +25832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -26394,7 +26221,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -26525,7 +26351,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -26656,7 +26481,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -26787,7 +26611,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -27251,7 +27074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -28159,7 +27981,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -28734,7 +28555,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -28865,7 +28685,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -29315,7 +29134,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -29446,7 +29264,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -29577,7 +29394,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -29932,7 +29748,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &490819914
 Transform:
   m_ObjectHideFlags: 0
@@ -30518,7 +30334,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -30649,7 +30464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -30891,7 +30705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -31133,7 +30946,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -31375,7 +31187,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -31504,7 +31315,7 @@ GameObject:
   - component: {fileID: 514798743}
   - component: {fileID: 514798742}
   m_Layer: 0
-  m_Name: spiderHit
+  m_Name: spiderDamage
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -32375,7 +32186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -33390,7 +33200,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -34913,7 +34722,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -35266,7 +35074,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -35952,7 +35759,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -36083,7 +35889,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -36214,7 +36019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -36820,7 +36624,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -37159,7 +36962,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -37512,7 +37314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -37951,7 +37752,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 539
+  m_RootOrder: 537
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &609177555
 BoxCollider2D:
@@ -38377,7 +38178,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -38581,7 +38381,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -39267,7 +39066,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -39734,7 +39532,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -39865,7 +39662,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -39898,7 +39694,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 646411732}
   m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 58.466, y: -6.173, z: 0}
+  m_LocalPosition: {x: 58.513, y: -6.173, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -40329,7 +40125,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -40460,7 +40255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -40609,7 +40403,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 541
+  m_RootOrder: 539
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &657061671
 BoxCollider2D:
@@ -41076,7 +40870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -41207,7 +41000,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -41338,7 +41130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -42205,7 +41996,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -42724,7 +42514,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 546
+  m_RootOrder: 544
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &698372637
 BoxCollider2D:
@@ -42928,7 +42718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -43396,7 +43185,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 547
+  m_RootOrder: 545
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &710196266
 BoxCollider2D:
@@ -43600,7 +43389,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -44175,7 +43963,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -44639,7 +44426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -45231,7 +45017,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -45608,7 +45393,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -45739,7 +45523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -45981,7 +45764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -46112,7 +45894,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -46465,7 +46246,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -46666,7 +46446,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -46797,7 +46576,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -47137,117 +46915,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &780853395
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 780853396}
-  - component: {fileID: 780853398}
-  - component: {fileID: 780853397}
-  m_Layer: 9
-  m_Name: platform-middle (374)
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &780853396
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780853395}
-  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
-  m_LocalPosition: {x: 57.429893, y: -6.173, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1488061213}
-  m_RootOrder: 531
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
---- !u!61 &780853397
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780853395}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.012506051, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.15, y: 0.47}
-    newSize: {x: 0.15, y: 0.47}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.1249879, y: 0.47}
-  m_EdgeRadius: 0
---- !u!212 &780853398
-SpriteRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 780853395}
-  m_Enabled: 1
-  m_CastShadows: 0
-  m_ReceiveShadows: 0
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 0
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 0
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 2
-  m_Sprite: {fileID: 21300000, guid: 5b77792f6aa9883409a8f321ff7ea4bd, type: 3}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 1
-  m_FlipY: 1
-  m_DrawMode: 0
-  m_Size: {x: 0.15, y: 0.47}
-  m_AdaptiveModeThreshold: 0.5
-  m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
-  m_MaskInteraction: 0
-  m_SpriteSortPoint: 0
 --- !u!1 &783470991
 GameObject:
   m_ObjectHideFlags: 0
@@ -47372,7 +47039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -48364,7 +48030,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -49050,7 +48715,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -49728,7 +49392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -51016,7 +50679,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -51147,7 +50809,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -51458,7 +51119,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 543
+  m_RootOrder: 541
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &848426348
 BoxCollider2D:
@@ -51773,7 +51434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -52112,7 +51772,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -52465,7 +52124,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -52596,7 +52254,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -53466,7 +53123,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -53621,6 +53277,72 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1001 &886348987
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1919376221}
+    m_Modifications:
+    - target: {fileID: 1419414178887789378, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_Name
+      value: lump (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -5.8950005
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.2750001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: -0.008226126
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.9999662
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 180.943
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414179106743155, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+--- !u!4 &886348988 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+  m_PrefabInstance: {fileID: 886348987}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &886881724
 GameObject:
   m_ObjectHideFlags: 0
@@ -53967,7 +53689,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -54098,7 +53819,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -54562,7 +54282,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -54693,7 +54412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -55448,7 +55166,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -56356,7 +56073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -56598,7 +56314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -57173,7 +56888,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -57304,7 +57018,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -57469,7 +57182,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -57507,7 +57219,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 548
+  m_RootOrder: 546
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!61 &960502195
 BoxCollider2D:
@@ -58044,7 +57756,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -58175,7 +57886,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -58306,7 +58016,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -58659,7 +58368,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -58901,7 +58609,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -59332,7 +59039,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -60129,7 +59835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -60630,7 +60335,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -60983,7 +60687,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -61742,7 +61445,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -62115,7 +61817,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -62357,7 +62058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -62710,7 +62410,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -62841,7 +62540,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -62972,7 +62670,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -63695,7 +63392,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -64048,7 +63744,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -65040,7 +64735,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -65251,7 +64945,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1084868578
 Transform:
   m_ObjectHideFlags: 0
@@ -65393,7 +65087,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -65635,7 +65328,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -66355,7 +66047,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -66377,7 +66068,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1099752538
 Transform:
   m_ObjectHideFlags: 0
@@ -67343,7 +67034,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 544
+  m_RootOrder: 542
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1117898914
 BoxCollider2D:
@@ -67658,7 +67349,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -67900,7 +67590,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -68031,7 +67720,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -68384,7 +68072,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -68626,7 +68313,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -70121,7 +69807,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -70252,7 +69937,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -70605,7 +70289,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -71088,7 +70771,7 @@ Transform:
   - {fileID: 604796858}
   - {fileID: 331798891}
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 545
+  m_RootOrder: 543
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1172416748
 GameObject:
@@ -71290,13 +70973,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
   knockbackForceY: 0
   damageToGive: 5
   shouldRespawn: 0
+--- !u!1001 &1180178698
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1919376221}
+    m_Modifications:
+    - target: {fileID: 1419414178887789378, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_Name
+      value: lump (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.367
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 1.263
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7052047
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70900375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.308
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414179106743155, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+--- !u!4 &1180178699 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+  m_PrefabInstance: {fileID: 1180178698}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1181356915
 GameObject:
   m_ObjectHideFlags: 0
@@ -72087,7 +71835,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -72329,7 +72076,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -72460,7 +72206,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -72612,7 +72357,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -73000,7 +72745,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -73353,7 +73097,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -73706,7 +73449,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -74281,7 +74023,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -74818,7 +74559,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -75060,7 +74800,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -75302,7 +75041,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -75491,7 +75229,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -77140,7 +76877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -77937,7 +77673,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -78068,7 +77803,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -78341,7 +78075,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -78699,7 +78432,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -79021,7 +78753,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -79925,7 +79656,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -80056,7 +79786,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -80298,7 +80027,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -80873,7 +80601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -81177,7 +80904,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -81709,7 +81435,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -81951,7 +81676,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -82193,7 +81917,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -83399,7 +83122,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -83863,7 +83585,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -84206,7 +83927,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -84448,7 +84168,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -84579,7 +84298,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -84821,7 +84539,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -85285,7 +85002,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -85416,7 +85132,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -85658,7 +85373,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -85789,7 +85503,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -86318,7 +86031,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attacksBeforeSpecial: 3
-  cdBetweenAttacks: 2
+  fireRate: 2
+  nextFireTime: 0
   lineOfSite: 6.5
   shootingRange: 1.98
   doSpecialAttack: 0
@@ -86326,7 +86040,7 @@ MonoBehaviour:
   waitingAttack: 0
   preparingAttack: 0
   doingSpecial: 0
-  bullet: {fileID: 5539410709391493724, guid: e01e875094ec9cb448549b3934945cb3, type: 3}
+  bullet: {fileID: 1249174318838807284, guid: e01e875094ec9cb448549b3934945cb3, type: 3}
   bulletParent: {fileID: 1276682647}
   positionSpecial: {fileID: 1324036905}
 --- !u!114 &1433206022
@@ -86341,7 +86055,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 60
   speed: 1.5
   knockbackForceX: 0
@@ -86813,6 +86526,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!4 &1446055031 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+  m_PrefabInstance: {fileID: 1419414178186356532}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1450780514
 GameObject:
   m_ObjectHideFlags: 0
@@ -87050,7 +86768,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1452091578
 Transform:
   m_ObjectHideFlags: 0
@@ -87099,7 +86817,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 532
+  m_RootOrder: 530
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &1454583436
 BoxCollider2D:
@@ -87709,7 +87427,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -88160,7 +87877,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -88688,7 +88404,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 10, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -89533,8 +89249,6 @@ Transform:
   - {fileID: 1337020915}
   - {fileID: 160395116}
   - {fileID: 646411733}
-  - {fileID: 277258454}
-  - {fileID: 780853396}
   - {fileID: 1454583435}
   - {fileID: 1847347152}
   - {fileID: 1602101038}
@@ -89790,7 +89504,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -89921,7 +89634,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -90163,7 +89875,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -90613,7 +90324,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -90905,7 +90615,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 536
+  m_RootOrder: 534
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &1514953591
 BoxCollider2D:
@@ -91402,7 +91112,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -91755,7 +91464,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -91997,7 +91705,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -92149,7 +91856,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -92817,7 +92524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -93170,7 +92876,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -93776,13 +93481,78 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
   knockbackForceY: 0
   damageToGive: 5
   shouldRespawn: 0
+--- !u!1001 &1569910529
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1919376221}
+    m_Modifications:
+    - target: {fileID: 1419414178887789378, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_Name
+      value: lump (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 5.619999
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.8800001
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.7052047
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.70900375
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90.308
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414179106743155, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+--- !u!4 &1569910530 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+  m_PrefabInstance: {fileID: 1569910529}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1572275246
 GameObject:
   m_ObjectHideFlags: 0
@@ -94240,7 +94010,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -94832,7 +94601,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -95074,7 +94842,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -95205,7 +94972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -95780,7 +95546,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -95929,7 +95694,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 534
+  m_RootOrder: 532
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &1602101039
 BoxCollider2D:
@@ -96244,7 +96009,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -96486,7 +96250,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -96870,7 +96633,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -97396,7 +97158,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -97565,7 +97326,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -98097,7 +97857,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -98228,7 +97987,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -98654,7 +98412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -98785,7 +98542,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -98916,7 +98672,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -99380,7 +99135,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -99817,7 +99571,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -100059,7 +99812,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -100301,7 +100053,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -101018,7 +100769,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -101186,7 +100936,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -101315,6 +101064,7 @@ MonoBehaviour:
   bossUI: {fileID: 1623433940}
   objectsToActivate:
   - {fileID: 823578779}
+  - {fileID: 1919376220}
   objectsToDesactivate: []
   hasToActivate: 1
   hasToDesactivate: 0
@@ -101330,7 +101080,7 @@ BoxCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 1.8287277, y: -0.56137633}
@@ -101654,7 +101404,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -102083,7 +101832,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -102325,7 +102073,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -102567,7 +102314,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -102920,7 +102666,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -103051,7 +102796,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -103182,7 +102926,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -103535,7 +103278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -103666,7 +103408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -104241,7 +103982,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -104775,7 +104515,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -106606,7 +106345,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -106628,7 +106366,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1750534560
 Transform:
   m_ObjectHideFlags: 0
@@ -106771,7 +106509,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -106902,7 +106639,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -107255,7 +106991,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -107388,7 +107123,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1764166079
 Transform:
   m_ObjectHideFlags: 0
@@ -107530,7 +107265,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -107571,7 +107305,7 @@ RectTransform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 0}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -108292,7 +108026,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -109137,7 +108870,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -109507,7 +109239,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -109656,7 +109387,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 540
+  m_RootOrder: 538
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1795280810
 BoxCollider2D:
@@ -110082,7 +109813,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -110127,13 +109857,15 @@ MonoBehaviour:
   skullHit: {fileID: 0}
   spark: {fileID: 739970604}
   potion: {fileID: 1394434480}
-  ghostDamage: {fileID: 0}
+  ghostDamage: {fileID: 1094401911}
   swampThingDamage: {fileID: 0}
-  bossDamage: {fileID: 0}
+  bossDamage: {fileID: 846540436}
+  wizardDamage: {fileID: 388112608}
+  spiderDamage: {fileID: 514798742}
   masterVol: 0
   effectsVol: 0
-  masterSlider: {fileID: 0}
-  effectsSlider: {fileID: 0}
+  masterSlider: {fileID: 906139508}
+  effectsSlider: {fileID: 1153868611}
 --- !u!4 &1800878418
 Transform:
   m_ObjectHideFlags: 0
@@ -110282,7 +110014,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -110524,7 +110255,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -110655,7 +110385,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -110931,7 +110660,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -111173,7 +110901,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -111637,7 +111364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -112594,7 +112320,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 533
+  m_RootOrder: 531
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 108.621}
 --- !u!61 &1847347153
 BoxCollider2D:
@@ -112798,7 +112524,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -113373,7 +113098,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -113799,7 +113523,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -114041,7 +113764,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -114341,7 +114063,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -114472,7 +114193,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -114714,7 +114434,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -115129,7 +114848,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -115260,7 +114978,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -115724,7 +115441,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -116427,7 +116143,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -116714,6 +116429,41 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 8.996109, y: 10.628014}
   m_EdgeRadius: 0
+--- !u!1 &1919376220
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919376221}
+  m_Layer: 0
+  m_Name: traps
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1919376221
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919376220}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 57.26, y: -4.43, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1446055031}
+  - {fileID: 886348988}
+  - {fileID: 1569910530}
+  - {fileID: 1180178699}
+  m_Father: {fileID: 255164415}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1920210954
 GameObject:
   m_ObjectHideFlags: 0
@@ -117837,7 +117587,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -118270,7 +118019,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -118339,7 +118087,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1488061213}
-  m_RootOrder: 542
+  m_RootOrder: 540
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
 --- !u!61 &1955538316
 BoxCollider2D:
@@ -118654,7 +118402,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -119673,7 +119420,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -119915,7 +119661,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -120268,7 +120013,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -120621,7 +120365,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -120752,7 +120495,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -120883,7 +120625,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -121236,7 +120977,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -121686,7 +121426,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -122039,7 +121778,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -122392,7 +122130,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -122523,7 +122260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -123324,7 +123060,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -123677,7 +123412,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -124141,7 +123875,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -124272,7 +124005,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -124551,7 +124283,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -125313,7 +125044,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -125444,7 +125174,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -125908,7 +125637,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -126039,7 +125767,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -127422,7 +127149,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -128552,7 +128278,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -128683,7 +128408,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -129036,7 +128760,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -129537,7 +129260,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -129890,7 +129612,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -130576,7 +130297,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -130785,7 +130505,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &2130428978
 Transform:
   m_ObjectHideFlags: 0
@@ -131338,7 +131058,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -131469,7 +131188,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
@@ -131711,10 +131429,70 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: 
   hp: 0
   speed: 0
   knockbackForceX: 0
   knockbackForceY: 0
   damageToGive: 5
   shouldRespawn: 0
+--- !u!1001 &1419414178186356532
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 1919376221}
+    m_Modifications:
+    - target: {fileID: 1419414178887789378, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_Name
+      value: lump
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -0.13499832
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -1.3320003
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.95281845
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0.30354086
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414178887789379, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -35.341
+      objectReference: {fileID: 0}
+    - target: {fileID: 1419414179106743155, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 4ecb48ed1bbd98a49826a59631004ba9, type: 3}

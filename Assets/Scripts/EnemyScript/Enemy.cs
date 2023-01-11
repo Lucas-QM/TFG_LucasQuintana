@@ -4,7 +4,6 @@ using UnityEngine;
 
 public class Enemy : MonoBehaviour
 {
-    public string name;
     public float hp;
     public float speed;
     public float knockbackForceX;

@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class Level2BossMovement : MonoBehaviour
 {
-    public float lineOfSite, cdBetweenAttacks;
+    public float lineOfSite, fireRate, nextFireTime;
     private Transform player;
     public GameObject[] positions;
     public GameObject bullet;
@@ -39,28 +39,20 @@ public class Level2BossMovement : MonoBehaviour
             }
         }
 
-        if (attacksMade < attacksBeforeTp && !isWaiting)
+        if (attacksMade < attacksBeforeTp && nextFireTime < Time.time)
         {
             float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-            if(distanceFromPlayer < lineOfSite)
+            if(distanceFromPlayer < lineOfSite )
             {
                 Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
                 attacksMade++;
-                StartCoroutine(WaitBetweenAttacks());
+                nextFireTime = Time.time + fireRate;
             }
-        } else if(attacksMade == attacksBeforeTp)
+        } else if(attacksMade == attacksBeforeTp && nextFireTime < Time.time)
         {
             attacksMade = 0;
             teleportation();
         }
-    }
-
-    IEnumerator WaitBetweenAttacks()
-    {
-        print(cdBetweenAttacks + "Espera de ataque");
-        isWaiting = true;
-        yield return new WaitForSeconds(cdBetweenAttacks);
-        isWaiting = false;
     }
 
     public void Flip()

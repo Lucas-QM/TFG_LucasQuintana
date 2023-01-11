@@ -10,6 +10,8 @@ public class MecanismController : MonoBehaviour
     public int leversActive;
     public GameObject objectToActivate, objectToDesactivate;
 
+    private bool firsTime = true;
+
     private void Start()
     {
         switch(SceneManager.GetActiveScene().buildIndex)
@@ -38,7 +40,11 @@ public class MecanismController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(leversActive == numberOfLevers)
+        
+    }
+    public void LeversOperated()
+    {
+        if (leversActive == numberOfLevers)
         {
             if (hasToActivate)
             {

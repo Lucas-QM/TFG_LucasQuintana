@@ -6,7 +6,7 @@ public class Level3BossMovement : MonoBehaviour
 {
     Animator anim;
 
-    public float lineOfSite, cdBetweenAttacks;
+    public float lineOfSite, fireRate, nextFireTime;
     public int attacksBeforeSpecial, numberOfSummons;
     public GameObject bullet, bulletBulletHell, bulletParent;
     public GameObject[] minionPositions, enemiesCanCreate, bulletParentSky;
@@ -41,14 +41,14 @@ public class Level3BossMovement : MonoBehaviour
             }
         }
 
-        float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
-        if (attacksMade < attacksBeforeSpecial && !isWaiting && !doingAnimation)
+        if (attacksMade < attacksBeforeSpecial && !doingAnimation && nextFireTime < Time.time)
         {
+            float distanceFromPlayer = Vector2.Distance(player.position, transform.position);
             if (distanceFromPlayer < lineOfSite)
             {
                 Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
                 attacksMade++;
-                StartCoroutine(WaitBetweenAttacks());
+                nextFireTime = Time.time + fireRate;
             }
         }
         else if (attacksMade == attacksBeforeSpecial && !doingAnimation)
@@ -79,6 +79,7 @@ public class Level3BossMovement : MonoBehaviour
             int minion = Random.Range(0, enemiesCanCreate.Length);
             Instantiate(enemiesCanCreate[minion], minionPositions[position].transform.position, Quaternion.identity);
         }
+        attacksMade = 0;
     }
 
     private void BulletHell()
@@ -98,13 +99,6 @@ public class Level3BossMovement : MonoBehaviour
         anim.SetBool(anima, false);
         doingAnimation = false;
         attacksMade = 0;
-    }
-
-    IEnumerator WaitBetweenAttacks()
-    {
-        isWaiting = true;
-        yield return new WaitForSeconds(cdBetweenAttacks);
-        isWaiting = false;
     }
 
     private void OnDrawGizmosSelected()
