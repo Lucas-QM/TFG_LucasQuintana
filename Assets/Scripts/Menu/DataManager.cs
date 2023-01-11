@@ -44,6 +44,13 @@ public class DataManager : MonoBehaviour
         PlayerPrefs.SetFloat("Mana", value);
     }
 
+    public void SavePlayerPosition(float valueX, float valueY, int scene)
+    {
+        PlayerPrefs.SetFloat("PositionX", valueX);
+        PlayerPrefs.SetFloat("PositionY", valueY);
+        PlayerPrefs.SetInt("ActualScene", scene);
+    }
+
     public void Level1MecanismData(int value)
     {
         PlayerPrefs.SetInt("level1Mecanism", value);
