@@ -22,13 +22,6 @@ public class MainMenuScript : MonoBehaviour
 
     public void StartGame()
     {
-        //if (SceneManager.GetActiveScene().buildIndex == 0)
-        //{
-        //    SceneManager.LoadScene(1);
-        //} else
-        //{
-        //    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-        //}
         SceneManager.LoadScene(PlayerPrefs.GetInt("ActualScene", 1));
     }
 

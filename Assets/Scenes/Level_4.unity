@@ -86325,7 +86325,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isDamaged: 0
   hasHealthBar: 1
-  deathEffect: {fileID: 0}
+  deathEffect: {fileID: 5113851548395359778, guid: 240be2d2cdd7d804da5c4ececbc4e137, type: 3}
   originalHealth: 60
   damageSound: {fileID: 0}
   potionRed: {fileID: 8300316975140284901, guid: 12e07e8d97b35304ab546a2188ec282c, type: 3}
