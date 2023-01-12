@@ -44,11 +44,12 @@ public class DataManager : MonoBehaviour
         PlayerPrefs.SetFloat("Mana", value);
     }
 
-    public void SavePlayerPosition(float valueX, float valueY, int scene)
+    public void SavePlayerPosition(float valueX, float valueY, int scene, int background)
     {
         PlayerPrefs.SetFloat("PositionX", valueX);
         PlayerPrefs.SetFloat("PositionY", valueY);
         PlayerPrefs.SetInt("ActualScene", scene);
+        PlayerPrefs.SetInt("BGImage", background);
     }
 
     public void Level1MecanismData(int value)

@@ -25,6 +25,7 @@ public class CameraController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        this.transform.GetChild(PlayerPrefs.GetInt("BGImage", 0)).gameObject.SetActive(true);
         activeRoom = player;
     }
 

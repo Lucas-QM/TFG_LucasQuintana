@@ -15,9 +15,10 @@ GameObject:
   - component: {fileID: 6539935226897193796}
   - component: {fileID: 6539935226897193797}
   - component: {fileID: -2285048215465284444}
-  m_Layer: 0
+  - component: {fileID: 7541663421216988324}
+  m_Layer: 12
   m_Name: HellFire-Normal
-  m_TagString: Untagged
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -101,7 +102,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: HellFire
   hp: 0
   speed: 2
   knockbackForceX: 0
@@ -174,3 +174,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!58 &7541663421216988324
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6539935226897193798}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.032417636, y: 0}
+  serializedVersion: 2
+  m_Radius: 0.04758236

@@ -51,11 +51,11 @@ public class EnemyHealth : MonoBehaviour
             if(enemy.hp <= 0)
             {
                 Instantiate(deathEffect, transform.position, Quaternion.identity);
-                float chance = Random.Range(1f, 100f);
+                int chance = Random.Range(1, 100);
                 if ( chance < 75)
                 {
-                    float potionChance = Random.Range(1f, 100f);
-                    if(potionChance < 50)
+                    int potionChance = Random.Range(1, 100);
+                    if(potionChance <= 50)
                     {
                         Instantiate(potionRed, transform.position, Quaternion.identity);
                     } else if(potionChance > 50 && potionChance < 100)

@@ -65681,7 +65681,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 24300002, guid: 93499916ae8767d4e8f612b9a8beffeb, type: 2}
   m_audioClip: {fileID: 8300000, guid: 7041cbec54d57ad468608d9da3c67de4, type: 3}
   m_PlayOnAwake: 0
-  m_Volume: 1
+  m_Volume: 0.5
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -77571,6 +77571,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 844603729}
     m_Modifications:
+    - target: {fileID: 7110969116846020376, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 376697088}
     - target: {fileID: 7110969116846020380, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
       propertyPath: m_Name
       value: statueSave (3)
@@ -80802,6 +80806,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 844603729}
     m_Modifications:
+    - target: {fileID: 7110969116846020376, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 376697088}
     - target: {fileID: 7110969116846020380, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
       propertyPath: m_Name
       value: statueSave
@@ -87959,7 +87967,7 @@ MonoBehaviour:
   manaImage: {fileID: 2055486276}
   inmunityTime: 0.5
   knockbackForceX: 100
-  knockbackForceY: 75
+  knockbackForceY: 50
   gameOverImg: {fileID: 1295413820}
 --- !u!70 &1471164647
 CapsuleCollider2D:
@@ -97118,6 +97126,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 844603729}
     m_Modifications:
+    - target: {fileID: 7110969116846020376, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 376697088}
     - target: {fileID: 7110969116846020380, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
       propertyPath: m_Name
       value: statueSave (2)
@@ -101318,8 +101330,7 @@ MonoBehaviour:
   objectsToDesactivate: []
   hasToActivate: 1
   hasToDesactivate: 0
-  firstTime: 0
-  bossMusic: {fileID: 1090960365}
+  BossMusic: {fileID: 1090960365}
 --- !u!61 &1681114660
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -106034,6 +106045,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 844603729}
     m_Modifications:
+    - target: {fileID: 7110969116846020376, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 376697088}
     - target: {fileID: 7110969116846020380, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
       propertyPath: m_Name
       value: statueSave (1)

@@ -7344,7 +7344,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 214553701}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 17.73, y: -18.44, z: 0}
+  m_LocalPosition: {x: -8.26, y: -4.25, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11767,10 +11767,10 @@ MonoBehaviour:
       - m_Target: {fileID: 1425674528}
         m_TargetAssemblyTypeName: ControlDialoge, Assembly-CSharp
         m_MethodName: NextLine
-        m_Mode: 2
+        m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -36215,6 +36215,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 19606687}
     m_Modifications:
+    - target: {fileID: 7110969116846020376, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7110969116846020380, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
       propertyPath: m_Name
       value: statueSave (1)
@@ -50695,7 +50699,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -5
+  m_SortingOrder: -2
   m_Sprite: {fileID: 21300000, guid: 6fcd885fb7a8f234e806d920246542ac, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -67983,7 +67987,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7389154392052576944, guid: 320bccf397e1bdb4a8dde74e8cd09d8e, type: 3}
       propertyPath: hp
-      value: 10
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 7389154392052576944, guid: 320bccf397e1bdb4a8dde74e8cd09d8e, type: 3}
       propertyPath: shouldRespawn
@@ -68011,6 +68015,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 19606687}
     m_Modifications:
+    - target: {fileID: 7110969116846020376, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
+      propertyPath: mainCamera
+      value: 
+      objectReference: {fileID: 519420032}
     - target: {fileID: 7110969116846020380, guid: 455b27a011578e048af64ae20ab2ca87, type: 3}
       propertyPath: m_Name
       value: statueSave

@@ -364,13 +364,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: Skeleton
   hp: 2
   speed: 1
   knockbackForceX: 1
   knockbackForceY: 1
   damageToGive: 1
-  shouldRespawn: 0
+  shouldRespawn: 1
 --- !u!114 &7897697105598853364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -425,25 +424,24 @@ MonoBehaviour:
   isFollower: 0
   isMoverShooter: 0
   isFlying: 0
-  walksRight: 0
   shouldWait: 0
-  isWaiting: 0
+  isSniper: 0
+  hasAnimation: 0
   timeToWait: 0
-  wallCheck: {fileID: 3823848386632281694}
-  pitCheck: {fileID: 5781516868572182338}
-  groundCheck: {fileID: 8660421609766037204}
-  detectionRadius: 0.1
   shootingRange: 0
-  bullet: {fileID: 0}
-  bulletParent: {fileID: 0}
+  lineOfSite: 0
   fireRate: 1
   nextFireTime: 0
+  bullet: {fileID: 0}
+  bulletParent: {fileID: 0}
   whatIsGround:
     serializedVersion: 2
     m_Bits: 512
+  wallCheck: {fileID: 3823848386632281694}
+  pitCheck: {fileID: 5781516868572182338}
+  groundCheck: {fileID: 8660421609766037204}
   pointA: {fileID: 1340038714329713821}
   pointB: {fileID: 5591915594151416977}
-  lineOfSite: 0
 --- !u!1 &8025079586941756573
 GameObject:
   m_ObjectHideFlags: 0

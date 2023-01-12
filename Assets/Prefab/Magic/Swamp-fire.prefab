@@ -18,7 +18,7 @@ GameObject:
   - component: {fileID: -84613937827659989}
   m_Layer: 12
   m_Name: Swamp-fire
-  m_TagString: Enemy
+  m_TagString: Projectile
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -114,7 +114,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 632c131f89788f84db8c866cdcf5066c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  name: SwampFire
   hp: 0
   speed: 2
   knockbackForceX: 0
