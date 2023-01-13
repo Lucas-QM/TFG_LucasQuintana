@@ -5,16 +5,17 @@ using UnityEngine.UI;
 
 public class EnemyHealth : MonoBehaviour
 {
-    Enemy enemy;
-    public bool isDamaged, hasHealthBar;
+    public bool hasHealthBar, isDamaged;
     public GameObject deathEffect;
-    private SpriteRenderer sprite;
-    Blink blink;
-    Rigidbody2D rb;
     public float originalHealth;
     public AudioSource damageSound;
     public GameObject potionRed, potionBlue, potionYellow;
     public Image healthImage;
+
+    private Enemy enemy;
+    private Blink blink;
+    private Rigidbody2D rb;
+    private SpriteRenderer sprite;
 
     // Start is called before the first frame update
     void Start()
@@ -82,11 +83,9 @@ public class EnemyHealth : MonoBehaviour
     {
         if (collision.CompareTag("Weapon"))
         {
-            print(collision.GetComponentInParent<PlayerController>().damageToGive + "golpe melee");
             enemy.hp -= collision.GetComponentInParent<PlayerController>().damageToGive;
         } else
         {
-            print(collision.GetComponent<Magic>().damageToGive + "golpe magico");
             enemy.hp -= collision.GetComponent<Magic>().damageToGive;
         }
     }

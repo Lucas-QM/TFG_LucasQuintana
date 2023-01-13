@@ -4,10 +4,6 @@ using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    float speed;
-    Rigidbody2D rb;
-    Animator anim;
-
     public bool isStatic, isWalker, isPatrol, isSearcher, isFollower, isMoverShooter, isFlying, shouldWait, isSniper, hasAnimation;
     public float timeToWait, shootingRange, lineOfSite, fireRate = 1f, nextFireTime;
     public GameObject bullet, bulletParent;
@@ -15,7 +11,9 @@ public class EnemyMovement : MonoBehaviour
     public Transform wallCheck, pitCheck, groundCheck, pointA, pointB;
 
     private bool walksRight, isWaiting, wallDetected, pitDetected, isGrounded, goToA, goToB;
-    private float checkDetectionRadius = 0.1f;
+    private float speed, checkDetectionRadius = 0.1f;
+    private Rigidbody2D rb;
+    private Animator anim;
     private Transform player;
 
     // Start is called before the first frame update
@@ -129,8 +127,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void FollowerMovement()
     {
-        float distanceFromPlayer = getPlayerDistance();
-        if (distanceFromPlayer < lineOfSite)
+        if (getPlayerDistance() < lineOfSite)
         {
             LookAtPlayer();
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
@@ -139,8 +136,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void SearcherMovement()
     {
-        float distanceFromPlayer = getPlayerDistance();
-        if (distanceFromPlayer < lineOfSite)
+        if (getPlayerDistance() < lineOfSite)
         {
             isPatrol = false;
             speed = 2.5f;
@@ -156,13 +152,12 @@ public class EnemyMovement : MonoBehaviour
 
     private void MooverShooterMovement()
     {
-        float distanceFromPlayer = getPlayerDistance();
-        if (distanceFromPlayer < lineOfSite && distanceFromPlayer > shootingRange)
+        if (getPlayerDistance() < lineOfSite && getPlayerDistance() > shootingRange)
         {
             LookAtPlayer();
             transform.position = Vector2.MoveTowards(this.transform.position, player.position, speed * Time.deltaTime);
         }
-        else if (distanceFromPlayer < shootingRange && nextFireTime < Time.time)
+        else if (getPlayerDistance() < shootingRange && nextFireTime < Time.time)
         {
             Instantiate(bullet, bulletParent.transform.position, Quaternion.identity);
             nextFireTime = Time.time + fireRate;
@@ -171,8 +166,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void SniperMovement()
     {
-        float distanceFromPlayer = getPlayerDistance();
-        if (distanceFromPlayer < shootingRange)
+        if (getPlayerDistance() < shootingRange)
         {
             anim.SetBool("Idle", false);
             LookAtPlayer();

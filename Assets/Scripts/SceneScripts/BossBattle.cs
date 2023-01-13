@@ -23,11 +23,11 @@ public class BossBattle : MonoBehaviour
             bossUI.SetActive(false);
             if (hasToActivate)
             {
-                activate_deactivate(false, objectsToActivate);
+                Activate_deactivate(false, objectsToActivate);
             }
             if (hasToDesactivate)
             {
-                activate_deactivate(true, objectsToDesactivate);
+                Activate_deactivate(true, objectsToDesactivate);
             }
             this.gameObject.SetActive(false);
         }
@@ -46,16 +46,16 @@ public class BossBattle : MonoBehaviour
 
             if (hasToActivate)
             {
-                activate_deactivate(true, objectsToActivate);
+                Activate_deactivate(true, objectsToActivate);
             }
             if (hasToDesactivate)
             {
-                activate_deactivate(false, objectsToDesactivate);
+                Activate_deactivate(false, objectsToDesactivate);
             }
         }
     }
 
-    private void activate_deactivate(bool option, GameObject[] gameObjects)
+    private void Activate_deactivate(bool option, GameObject[] gameObjects)
     {
         foreach(GameObject go in gameObjects)
         {

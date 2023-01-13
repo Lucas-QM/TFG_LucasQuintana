@@ -5,17 +5,11 @@ using UnityEngine.UI;
 
 public class PlayerHealth : MonoBehaviour
 {
-    public float hp;
-    public float maxHealth;
-    public float mana, maxMana;
-    public Image healthImage;
-    public Image manaImage;
+    public float hp, maxHealth, mana, maxMana, inmunityTime, knockbackForceX, knockbackForceY;
+    public Image healthImage, manaImage;
     bool isInmune;
-    public float inmunityTime;
     SpriteRenderer sprite;
     Blink material;
-    public float knockbackForceX;
-    public float knockbackForceY;
     Rigidbody2D rb;
     public GameObject gameOverImg;
 

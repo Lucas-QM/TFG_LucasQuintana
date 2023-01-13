@@ -9,7 +9,7 @@ public class Level4BossMovement : MonoBehaviour
 
     public int attacksBeforeSpecial;
     public float fireRate, nextFireTime, lineOfSite, shootingRange;
-    public bool doSpecialAttack, walksRight, waitingAttack, preparingAttack, doingSpecial;
+    public bool doSpecialAttack, walksRight, preparingAttack, doingSpecial;
     public GameObject bullet, bulletParent, positionSpecial;
 
     private Transform player;

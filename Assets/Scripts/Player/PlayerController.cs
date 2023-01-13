@@ -7,16 +7,15 @@ using UnityEngine.SceneManagement;
 public class PlayerController : MonoBehaviour
 {
     public float speed, jumpHeight, damageToGive;
-    float velX, velY;
     Rigidbody2D rb;
     public Transform groundCheck;
-    public bool isGrounded;
     public float groundCheckRadius;
     public LayerMask whatIsGround;
     Animator anim;
-
-    bool isAttacking;
     public bool isTalking;
+
+    private bool isAttacking, isGrounded;
+    private float velX, velY;
 
     public static PlayerController instance;
 

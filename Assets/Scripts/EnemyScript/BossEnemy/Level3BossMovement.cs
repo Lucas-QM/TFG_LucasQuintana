@@ -13,12 +13,11 @@ public class Level3BossMovement : MonoBehaviour
 
     private Transform player;
     private int attacksMade;
-    private bool walksRight, isWaiting, doingAnimation;
+    private bool walksRight, doingAnimation;
 
     // Start is called before the first frame update
     void Start()
     {
-        isWaiting = false;
         doingAnimation = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
         anim = GetComponent<Animator>();

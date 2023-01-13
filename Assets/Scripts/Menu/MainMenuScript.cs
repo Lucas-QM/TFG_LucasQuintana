@@ -28,12 +28,10 @@ public class MainMenuScript : MonoBehaviour
     public void QuitGame()
     {
         Application.Quit();
-        print("Game closed");
     }
 
     public void GoToMainMenu()
     {
-        print("Funciona");
         AudioManager.instance.BGMusic.Stop();
         
         SceneManager.LoadScene(0);

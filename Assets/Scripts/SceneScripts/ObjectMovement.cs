@@ -8,7 +8,7 @@ public class ObjectMovement : MonoBehaviour
     public float speed;
     public bool shouldMove, shouldWait, willDestroy, canContinue, startCd;
     public float timeToWait, timeToDestroy, destroyCd;
-    bool moveToA, moveToB;
+    private bool moveToA, moveToB;
 
     // Start is called before the first frame update
     void Start()

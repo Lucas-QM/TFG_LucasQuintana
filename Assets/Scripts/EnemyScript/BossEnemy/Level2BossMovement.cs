@@ -8,18 +8,16 @@ public class Level2BossMovement : MonoBehaviour
     public float lineOfSite, fireRate, nextFireTime;
     private Transform player;
     public GameObject[] positions;
-    public GameObject bullet;
-    public GameObject bulletParent;
-
+    public GameObject bullet, bulletParent;
     public int attacksBeforeTp;
+
     private int attacksMade;
-    private bool walksRight, isWaiting;
+    private bool walksRight;
     // Start is called before the first frame update
     void Start()
     {
-        isWaiting = false;
         player = GameObject.FindGameObjectWithTag("Player").transform;
-        teleportation();
+        Teleportation();
     }
 
     private void FixedUpdate()
@@ -51,7 +49,7 @@ public class Level2BossMovement : MonoBehaviour
         } else if(attacksMade == attacksBeforeTp && nextFireTime < Time.time)
         {
             attacksMade = 0;
-            teleportation();
+            Teleportation();
         }
     }
 
@@ -61,7 +59,7 @@ public class Level2BossMovement : MonoBehaviour
         transform.localScale *= new Vector2(-1, transform.localScale.y);
     }
 
-    public void teleportation()
+    public void Teleportation()
     {
         int nextPosition = Random.Range(0, positions.Length);
         transform.position = positions[nextPosition].transform.position;

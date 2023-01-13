@@ -6,22 +6,17 @@ using UnityEngine;
 
 public class ControlDialoge : MonoBehaviour
 {
-    private Queue<string> dialoges;
-    Texts text;
     public TextMeshProUGUI textInScreen;
     public GameObject activator;
     public Transform player;
+
+    private Queue<string> dialoges;
+    Texts text;
 
     // Start is called before the first frame update
     void Start()
     {
         dialoges = new Queue<string>();
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-
     }
 
     public void ActiveDialoge(Texts textObject)

@@ -26,7 +26,6 @@ public class CameraController : MonoBehaviour
     void Start()
     {
         this.transform.GetChild(PlayerPrefs.GetInt("BGImage", 0)).gameObject.SetActive(true);
-        activeRoom = player;
     }
 
     // Update is called once per frame

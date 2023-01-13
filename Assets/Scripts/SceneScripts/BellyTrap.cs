@@ -4,15 +4,11 @@ using UnityEngine;
 
 public class BellyTrap : MonoBehaviour
 {
-    Animator anim;
     public float detectionRadius, fireRate, nextFireTime;
-    private bool waitingAttack;
     private Transform player;
     // Start is called before the first frame update
     void Start()
     {
-        waitingAttack = false;
-        anim = GetComponentInChildren<Animator>();
         player = GameObject.FindGameObjectWithTag("Player").transform;
     }
 

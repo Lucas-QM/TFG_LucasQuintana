@@ -5,9 +5,8 @@ using UnityEngine;
 public class RespawnScript : MonoBehaviour
 {
     public float timeToRespawn;
-    public GameObject enemyToRespawn;
     public bool isRespawning;
-
+    private GameObject enemyToRespawn;
     // Start is called before the first frame update
     void Start()
     {

@@ -18,7 +18,7 @@ public class HomingBulletScript : MonoBehaviour
     void Update()
     {
         transform.position = Vector2.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
-        if (target.transform.position.x < transform.position.x)
+        if (target.position.x < transform.position.x)
         {
             transform.localScale *= new Vector2(-1, transform.localScale.y);
         }
